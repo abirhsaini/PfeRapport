@@ -104,24 +104,30 @@
 
 
 \listoffigures
-\addcontentsline{toc}{chapter}{List of Figures} 
+\addcontentsline{toc}{chapter}{Table des figures} 
 %figures are added automatically here
 
 \listoftables
-\addcontentsline{toc}{chapter}{List of Tables} 
+\addcontentsline{toc}{chapter}{Liste des tableaux} 
 %tables are added automatically here
 
 \lstlistoflistings
-\addcontentsline{toc}{chapter}{List of Listings} 
+\addcontentsline{toc}{chapter}{Listings} 
 %Code snippets are added automatically here
 
+
 \tableofcontents
-\addcontentsline{toc}{chapter}{Table of Contents}
+\addcontentsline{toc}{chapter}{Table des matières}
 %contents are added automatically here
+
+
 
 \mainmatter
 
+\input{Frontmatter/IntroductionGenerale.tex}
 %debut of chapters
+
+\input{Chapitres/Chapitre1.tex}
 
 \input{Chapters/Chapter1}
 
@@ -145,21 +151,23 @@
 
 \input{Endmatter/ComplementaryCodes}
 
-\begin{thebibliography}{99}
-\addcontentsline{toc}{chapter}{Bibliography}
+\input{Endmatter/Bibliography.tex}
+
+% \begin{thebibliography}{99}
+% \addcontentsline{toc}{chapter}{Bibliography}
 
 
-\bibitem{ref1}
-Author name, Book name.
+% \bibitem{ref1}
+% Author name, Book name.
 
-\bibitem{ref2}
-\emph{Title 1},
-\href{https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex}{\textbf{Title 2}}
+% \bibitem{ref2}
+% \emph{Title 1},
+% \href{https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex}{\textbf{Title 2}}
 
- %the link is a documentation of the basic bibliography method (that    I'm using here) + bibTex which is more advanced, read it well and decide which one works best for you.
+%  %the link is a documentation of the basic bibliography method (that    I'm using here) + bibTex which is more advanced, read it well and decide which one works best for you.
 
 
 
-\end{thebibliography}
+% \end{thebibliography}
 
 \end{document}
