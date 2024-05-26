@@ -17,84 +17,92 @@
 \contentsline {subsection}{\numberline {1.1.4}Les domaines Métiers et les clients 4D}{8}{subsection.1.1.4}%
 \contentsline {section}{\numberline {1.2}Cadre de projet}{9}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Conduite de projet}{9}{section.1.3}%
-\contentsline {chapter}{\numberline {2}General Project Context}{10}{chapter.2}%
-\contentsline {section}{\numberline {2.1}READ\_ME}{11}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Codes\_Needed}{12}{subsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.1}Text formatting}{13}{subsubsection.2.1.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.2}Figures}{13}{subsubsection.2.1.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.1.3}Tables}{13}{subsubsection.2.1.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.1.4}Lists}{14}{subsubsection.2.1.1.4}%
-\contentsline {subsubsection}{\numberline {2.1.1.5}Code scripts or terminal}{15}{subsubsection.2.1.1.5}%
-\contentsline {subsubsection}{\numberline {2.1.1.6}Math}{15}{subsubsection.2.1.1.6}%
-\contentsline {section}{\numberline {2.2}Presentation of host organization}{16}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Company Overview}{16}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Organizational Chart}{16}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Presentation of the project}{17}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Project Framework}{17}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Project objectives}{17}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Project Planning}{17}{subsection.2.3.3}%
-\contentsline {chapter}{\numberline {3}Chapter 2 title}{19}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Section1}{20}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Subsection1}{20}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Subsection2}{20}{subsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.2.1}Subsubsection1}{20}{subsubsection.3.1.2.1}%
-\contentsline {subsubsection}{\numberline {3.1.2.2}Subsubsection2}{20}{subsubsection.3.1.2.2}%
-\contentsline {paragraph}{\numberline {3.1.2.2.1}Paragraph a}{20}{paragraph.3.1.2.2.1}%
-\contentsline {paragraph}{\numberline {3.1.2.2.2}Paragraph b}{20}{paragraph.3.1.2.2.2}%
-\contentsline {section}{\numberline {3.2}Section2}{21}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Subsection1}{21}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Subsection2}{21}{subsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.2.1}Subsubsection1}{21}{subsubsection.3.2.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2.2}Subsubsection2}{21}{subsubsection.3.2.2.2}%
-\contentsline {paragraph}{\numberline {3.2.2.2.1}Paragraph a}{21}{paragraph.3.2.2.2.1}%
-\contentsline {paragraph}{\numberline {3.2.2.2.2}Paragraph b}{21}{paragraph.3.2.2.2.2}%
-\contentsline {chapter}{\numberline {4}Chapter 3 title}{23}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Section1}{24}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Subsection1}{24}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Subsection2}{24}{subsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.2.1}Subsubsection1}{24}{subsubsection.4.1.2.1}%
-\contentsline {subsubsection}{\numberline {4.1.2.2}Subsubsection2}{24}{subsubsection.4.1.2.2}%
-\contentsline {paragraph}{\numberline {4.1.2.2.1}Paragraph a}{24}{paragraph.4.1.2.2.1}%
-\contentsline {paragraph}{\numberline {4.1.2.2.2}Paragraph b}{24}{paragraph.4.1.2.2.2}%
-\contentsline {section}{\numberline {4.2}Section2}{24}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Subsection1}{24}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Subsection2}{24}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.1}Subsubsection1}{24}{subsubsection.4.2.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2.2}Subsubsection2}{24}{subsubsection.4.2.2.2}%
-\contentsline {paragraph}{\numberline {4.2.2.2.1}Paragraph a}{24}{paragraph.4.2.2.2.1}%
-\contentsline {paragraph}{\numberline {4.2.2.2.2}Paragraph b}{24}{paragraph.4.2.2.2.2}%
-\contentsline {chapter}{\numberline {5}Chapter 4 title}{26}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Section1}{27}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Subsection1}{27}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Subsection2}{27}{subsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.1}Subsubsection1}{27}{subsubsection.5.1.2.1}%
-\contentsline {subsubsection}{\numberline {5.1.2.2}Subsubsection2}{27}{subsubsection.5.1.2.2}%
-\contentsline {paragraph}{\numberline {5.1.2.2.1}Paragraph a}{27}{paragraph.5.1.2.2.1}%
-\contentsline {paragraph}{\numberline {5.1.2.2.2}Paragraph b}{27}{paragraph.5.1.2.2.2}%
-\contentsline {section}{\numberline {5.2}Section2}{27}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Subsection1}{27}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Subsection2}{27}{subsection.5.2.2}%
-\contentsline {subsubsection}{\numberline {5.2.2.1}Subsubsection1}{27}{subsubsection.5.2.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2.2}Subsubsection2}{27}{subsubsection.5.2.2.2}%
-\contentsline {paragraph}{\numberline {5.2.2.2.1}Paragraph a}{27}{paragraph.5.2.2.2.1}%
-\contentsline {paragraph}{\numberline {5.2.2.2.2}Paragraph b}{27}{paragraph.5.2.2.2.2}%
-\contentsline {chapter}{\numberline {6}Chapter 5 title}{29}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Section1}{30}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Subsection1}{30}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Subsection2}{30}{subsection.6.1.2}%
-\contentsline {subsubsection}{\numberline {6.1.2.1}Subsubsection1}{30}{subsubsection.6.1.2.1}%
-\contentsline {subsubsection}{\numberline {6.1.2.2}Subsubsection2}{30}{subsubsection.6.1.2.2}%
-\contentsline {paragraph}{\numberline {6.1.2.2.1}Paragraph a}{30}{paragraph.6.1.2.2.1}%
-\contentsline {paragraph}{\numberline {6.1.2.2.2}Paragraph b}{30}{paragraph.6.1.2.2.2}%
-\contentsline {section}{\numberline {6.2}Section2}{30}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Subsection1}{30}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Subsection2}{30}{subsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.2.1}Subsubsection1}{30}{subsubsection.6.2.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2.2}Subsubsection2}{30}{subsubsection.6.2.2.2}%
-\contentsline {paragraph}{\numberline {6.2.2.2.1}Paragraph a}{30}{paragraph.6.2.2.2.1}%
-\contentsline {paragraph}{\numberline {6.2.2.2.2}Paragraph b}{30}{paragraph.6.2.2.2.2}%
-\contentsline {chapter}{General Conclusion and Perspectives}{32}{chapter*.27}%
-\contentsline {chapter}{\numberline {A}Glossary}{33}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Acronyms}{34}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Some subject you want to expand on}{36}{appendix.C}%
-\contentsline {chapter}{Bibliography}{38}{appendix*.29}%
+\contentsline {chapter}{\numberline {2}Analyse et spécification des besoins }{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Spécification des exigences}{12}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Identification des acteurs:}{12}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Exigences fonctionnelles: }{12}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Exigences non-fonctionnelles:}{12}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Identification de cas d’utilisation:}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Diagramme de cas d’utilisation:}{12}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Description textuelle de cas d’utilisation: }{13}{subsection.2.2.2}%
+\contentsline {chapter}{\numberline {3}General Project Context}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}READ\_ME}{19}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Codes\_Needed}{20}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}Text formatting}{21}{subsubsection.3.1.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}Figures}{21}{subsubsection.3.1.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.1.3}Tables}{21}{subsubsection.3.1.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.1.4}Lists}{23}{subsubsection.3.1.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.1.5}Code scripts or terminal}{23}{subsubsection.3.1.1.5}%
+\contentsline {subsubsection}{\numberline {3.1.1.6}Math}{23}{subsubsection.3.1.1.6}%
+\contentsline {section}{\numberline {3.2}Presentation of host organization}{25}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Company Overview}{25}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Organizational Chart}{25}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Presentation of the project}{26}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Project Framework}{26}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Project objectives}{26}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Project Planning}{26}{subsection.3.3.3}%
+\contentsline {chapter}{\numberline {4}Chapter 2 title}{28}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Section1}{29}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Subsection1}{29}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Subsection2}{30}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}Subsubsection1}{30}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}Subsubsection2}{30}{subsubsection.4.1.2.2}%
+\contentsline {paragraph}{\numberline {4.1.2.2.1}Paragraph a}{30}{paragraph.4.1.2.2.1}%
+\contentsline {paragraph}{\numberline {4.1.2.2.2}Paragraph b}{30}{paragraph.4.1.2.2.2}%
+\contentsline {section}{\numberline {4.2}Section2}{30}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Subsection1}{30}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Subsection2}{30}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Subsubsection1}{30}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}Subsubsection2}{30}{subsubsection.4.2.2.2}%
+\contentsline {paragraph}{\numberline {4.2.2.2.1}Paragraph a}{30}{paragraph.4.2.2.2.1}%
+\contentsline {paragraph}{\numberline {4.2.2.2.2}Paragraph b}{30}{paragraph.4.2.2.2.2}%
+\contentsline {chapter}{\numberline {5}Chapter 3 title}{32}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Section1}{33}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Subsection1}{33}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Subsection2}{33}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}Subsubsection1}{33}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}Subsubsection2}{33}{subsubsection.5.1.2.2}%
+\contentsline {paragraph}{\numberline {5.1.2.2.1}Paragraph a}{33}{paragraph.5.1.2.2.1}%
+\contentsline {paragraph}{\numberline {5.1.2.2.2}Paragraph b}{33}{paragraph.5.1.2.2.2}%
+\contentsline {section}{\numberline {5.2}Section2}{33}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Subsection1}{33}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Subsection2}{33}{subsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.1}Subsubsection1}{33}{subsubsection.5.2.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2.2}Subsubsection2}{33}{subsubsection.5.2.2.2}%
+\contentsline {paragraph}{\numberline {5.2.2.2.1}Paragraph a}{33}{paragraph.5.2.2.2.1}%
+\contentsline {paragraph}{\numberline {5.2.2.2.2}Paragraph b}{33}{paragraph.5.2.2.2.2}%
+\contentsline {chapter}{\numberline {6}Chapter 4 title}{35}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Section1}{36}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Subsection1}{36}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Subsection2}{36}{subsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.1}Subsubsection1}{36}{subsubsection.6.1.2.1}%
+\contentsline {subsubsection}{\numberline {6.1.2.2}Subsubsection2}{36}{subsubsection.6.1.2.2}%
+\contentsline {paragraph}{\numberline {6.1.2.2.1}Paragraph a}{36}{paragraph.6.1.2.2.1}%
+\contentsline {paragraph}{\numberline {6.1.2.2.2}Paragraph b}{36}{paragraph.6.1.2.2.2}%
+\contentsline {section}{\numberline {6.2}Section2}{36}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Subsection1}{36}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Subsection2}{36}{subsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}Subsubsection1}{36}{subsubsection.6.2.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2.2}Subsubsection2}{36}{subsubsection.6.2.2.2}%
+\contentsline {paragraph}{\numberline {6.2.2.2.1}Paragraph a}{36}{paragraph.6.2.2.2.1}%
+\contentsline {paragraph}{\numberline {6.2.2.2.2}Paragraph b}{36}{paragraph.6.2.2.2.2}%
+\contentsline {chapter}{\numberline {7}Chapter 5 title}{38}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Section1}{39}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Subsection1}{39}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Subsection2}{39}{subsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.2.1}Subsubsection1}{39}{subsubsection.7.1.2.1}%
+\contentsline {subsubsection}{\numberline {7.1.2.2}Subsubsection2}{39}{subsubsection.7.1.2.2}%
+\contentsline {paragraph}{\numberline {7.1.2.2.1}Paragraph a}{39}{paragraph.7.1.2.2.1}%
+\contentsline {paragraph}{\numberline {7.1.2.2.2}Paragraph b}{39}{paragraph.7.1.2.2.2}%
+\contentsline {section}{\numberline {7.2}Section2}{39}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Subsection1}{39}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Subsection2}{39}{subsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.2.1}Subsubsection1}{39}{subsubsection.7.2.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2.2}Subsubsection2}{39}{subsubsection.7.2.2.2}%
+\contentsline {paragraph}{\numberline {7.2.2.2.1}Paragraph a}{39}{paragraph.7.2.2.2.1}%
+\contentsline {paragraph}{\numberline {7.2.2.2.2}Paragraph b}{39}{paragraph.7.2.2.2.2}%
+\contentsline {chapter}{General Conclusion and Perspectives}{41}{chapter*.33}%
+\contentsline {chapter}{\numberline {A}Glossary}{42}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Acronyms}{43}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Some subject you want to expand on}{46}{appendix.C}%
+\contentsline {chapter}{Bibliography}{49}{appendix*.35}%
