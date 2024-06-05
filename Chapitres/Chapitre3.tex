@@ -1,0 +1,81 @@
+\chapter{Conception de la solution}
+\label{Conception de la solution}
+
+\section*{Introduction}
+
+Dans cette partie, nous allons commencer d’abord par une vue architecturale de
+l’application, puis nous allons détailler la conception en présentant les
+diagrammes de séquence et les diagrammes de classe. Ces diagrammes permettent de visualiser les différentes étapes du processus et la structure du système.
+
+\pagebreak
+
+\section{Architecture de l’application}
+
+\subsection{Architecture physique}
+
+Nous avons opté pour l’architecture client/serveur multi-tiers. En effet, l’accès à l’application exige le passage à
+travers des requêtes HTTP afin de récupérer et de déposer des versions dans le dépôt
+central. De plus, la gestion de la base de données du système doit être centralisée et délocalisée de l’endroit de la couche métier, ce qui aide à garder une aisance de maintenance.
+Et enfin, il faut que l’application soit distribuée sur plusieurs serveurs et chaque serveur
+s’occupe d’une tâche. En effet, grâce au partage des tâches entre les différents serveurs,
+nous pourrons garantir une grande souplesse, des bonnes performances et un temps de
+réponse réduit. La figure suivante illustre l’architecture physique que nous avons :
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{Figures/architecturePhysique.png}
+    \caption{Architecture physique de système.}
+\end{figure}
+
+Cette architecture se compose principalement des éléments suivants :
+
+\begin{itemize}
+    \item[$\bullet$] \textbf{Serveur REST} : Un serveur web qui suit les principes de l'architecture REST et expose des ressources via des URI, permettant aux clients d'effectuer des opérations standardisées sur ces ressources pour accéder aux données et fonctionnalités du serveur.
+    \item[$\bullet$] \textbf{Serveur 4D} : Ce serveur contient la couche métier de notre application.
+    \item[$\bullet$] \textbf{Serveur de base de données} : Ce serveur se charge de la gestion du stockage des données.
+    \item[$\bullet$] \textbf{Couche réseau} : Le protocole TLS sécurise les connexions client/serveur en cryptant les données échangées, permettant ainsi de renforcer la sécurité de votre application 4D Server.
+\end{itemize}
+
+\subsection{Architecture logique}
+
+Pour avoir une architecture robuste, modulable et évolutive, il faut utiliser le principe
+de « Couche », et donc séparer au maximum les différents types de traitement de l’application. L’environnement de travail n’est pas dépendant à une technologie spécifique.
+Pour cette raison, nous avons utilisé plusieurs technologies afin de développer une solution aboutie, performante, multicouches et qui s’intègre parfaitement. La figure suivante
+illustre l’architecture logicielle proposée pour le système développé, en présentant trois
+couches : couche présentation (web), couche métier qui s’occupe des différents traitements
+et couche accès aux données.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{Figures/architectureLogique.png}
+    \caption{Architecture logique de système.}
+\end{figure}
+
+Au niveau 4D Server, notre développement s’est concentré principalement sur la couche
+métier. En effet, 4D Server offre un environnement de développement qui simplifie considérablement la création d’applications. Les autres couches, telles que la couche d’accès
+aux données et la couche de présentation, sont déjà implémentées et intégrées dans 4D.Ainsi, les développeurs peuvent se concentrer sur la logique métier de leurs applications
+sans avoir à se soucier des détails techniques des autres couches. Cette approche permet
+un développement rapide et efficace, tout en offrant des fonctionnalités avancées pour
+répondre aux besoins spécifiques des projets.
+
+Grâce à 4D, les développeurs peuvent se concentrer sur l’essentiel et créer des applications puissantes et performantes en toute simplicité.
+
+\subsection{architecture techniques}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{Figures/architectureTechnique.png}
+    \caption{Architecture technique de système.}
+\end{figure}
+
+Le connecteur s’occupe de la récolte des données saisies par l’utilisateur dans le navigateur, ces données sont envoyées au serveur 4D via des requêtes HTTP. La couche web
+récupère les données reçues et les transmet à la couche métier qui effectue les traitements
+nécessaires. La couche 4D Database s’occupe de la sérialisation et la dé-sérialisation.
+
+ussi, nous avons travaillé avec ORDA, est une technologie spécifique qui facilite
+l’accès à une base de données relationnelle en tant qu’objets. Elle permet de manipuler les
+données de la base de données à l’aide d’un langage de programmation orienté objet ou
+d’interfaces utilisateur spécifiques. ORDA simplifie l’interaction avec la base de données
+en fournissant des abstractions supplémentaires et en masquant certaines complexités liées
+aux requêtes SQL.
