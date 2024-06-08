@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.1)  7 JUN 2024 15:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.1)  8 JUN 2024 16:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1157,12 +1157,12 @@ Package caption Info: End \AtBeginDocument code.
 \openout2 = `Frontmatter/Page_de_Garde_EN.aux'.
 
  (Frontmatter/Page_de_Garde_EN.tex
-<Logos/Logo_INPT.png, id=158, 1203.49625pt x 592.2125pt>
+<Logos/Logo_INPT.png, id=166, 1203.49625pt x 592.2125pt>
 File: Logos/Logo_INPT.png Graphic file (type png)
 <use Logos/Logo_INPT.png>
 Package pdftex.def Info: Logos/Logo_INPT.png  used on input line 3.
 (pdftex.def)             Requested size: 96.28166pt x 47.37796pt.
-<Logos/Logo_ANRT.jpg, id=160, 803.0pt x 569.12625pt>
+<Logos/Logo_ANRT.jpg, id=168, 803.0pt x 569.12625pt>
 File: Logos/Logo_ANRT.jpg Graphic file (type jpg)
 <use Logos/Logo_ANRT.jpg>
 Package pdftex.def Info: Logos/Logo_ANRT.jpg  used on input line 5.
@@ -1180,7 +1180,7 @@ LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
 LaTeX Font Warning: Font shape `T1/lmr/bx/scsl' undefined
 (Font)              using `T1/lmr/bx/n' instead on input line 11.
 
-<Logos/Logo-4D.jpg, id=161, 122.4575pt x 171.64125pt>
+<Logos/Logo-4D.jpg, id=169, 122.4575pt x 171.64125pt>
 File: Logos/Logo-4D.jpg Graphic file (type jpg)
 <use Logos/Logo-4D.jpg>
 Package pdftex.def Info: Logos/Logo-4D.jpg  used on input line 19.
@@ -1215,7 +1215,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Logos/ZLAFA.png, id=162, 548.80031pt x 210.03468pt>
+<Logos/ZLAFA.png, id=170, 548.80031pt x 210.03468pt>
 File: Logos/ZLAFA.png Graphic file (type png)
 <use Logos/ZLAFA.png>
 Package pdftex.def Info: Logos/ZLAFA.png  used on input line 47.
@@ -1233,12 +1233,12 @@ l.77 \frontmatter
 
 
 ] (Frontmatter/Dedication.tex
-<Logos/quote2.png, id=178, 813.0375pt x 813.0375pt>
+<Logos/quote2.png, id=186, 813.0375pt x 813.0375pt>
 File: Logos/quote2.png Graphic file (type png)
 <use Logos/quote2.png>
 Package pdftex.def Info: Logos/quote2.png  used on input line 38.
 (pdftex.def)             Requested size: 16.26418pt x 16.26418pt.
-<Logos/quote1.png, id=179, 813.0375pt x 813.0375pt>
+<Logos/quote1.png, id=187, 813.0375pt x 813.0375pt>
 File: Logos/quote1.png Graphic file (type png)
 <use Logos/quote1.png>
 Package pdftex.def Info: Logos/quote1.png  used on input line 51.
@@ -1279,31 +1279,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--97
 
 [5
 
-] (main.lof)
+] (main.lof [6
+
+])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [6
-
-] (main.lot)
+ [7] (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [7
+ [8
 
 ] (main.lol)
 \tf@lol=\write9
 \openout9 = `main.lol'.
 
- [8
+ [9
 
-] (main.toc [9
+] (main.toc [10
 
 ])
 \tf@toc=\write10
 \openout10 = `main.toc'.
 
- [10] (Frontmatter/IntroductionGenerale.tex
+ [11] (Frontmatter/IntroductionGenerale.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -1355,7 +1355,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--34
 
  []
 
-<Figures/80.jpg, id=316, 1260.20813pt x 411.03563pt>
+<Figures/80.jpg, id=344, 1260.20813pt x 411.03563pt>
 File: Figures/80.jpg Graphic file (type jpg)
 <use Figures/80.jpg>
 Package pdftex.def Info: Figures/80.jpg  used on input line 43.
@@ -1370,12 +1370,12 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 57
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<Figures/90.jpg, id=321, 985.43156pt x 450.18187pt>
+<Figures/90.jpg, id=349, 985.43156pt x 450.18187pt>
 File: Figures/90.jpg Graphic file (type jpg)
 <use Figures/90.jpg>
 Package pdftex.def Info: Figures/90.jpg  used on input line 65.
 (pdftex.def)             Requested size: 295.63174pt x 135.0556pt.
-<Figures/20.jpg, id=322, 1299.35437pt x 514.92375pt>
+<Figures/20.jpg, id=350, 1299.35437pt x 514.92375pt>
 File: Figures/20.jpg Graphic file (type jpg)
 <use Figures/20.jpg>
 Package pdftex.def Info: Figures/20.jpg  used on input line 79.
@@ -1385,7 +1385,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--109
 
  []
 
-<Figures/versions.jpg, id=329, 682.80093pt x 222.07968pt>
+<Figures/versions.jpg, id=357, 682.80093pt x 222.07968pt>
 File: Figures/versions.jpg Graphic file (type jpg)
 <use Figures/versions.jpg>
 Package pdftex.def Info: Figures/versions.jpg  used on input line 121.
@@ -1400,18 +1400,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--143
 
  []
 
-<Figures/v19v20.jpg, id=335, 903.375pt x 451.6875pt>
+<Figures/v19v20.jpg, id=363, 903.375pt x 451.6875pt>
 File: Figures/v19v20.jpg Graphic file (type jpg)
 <use Figures/v19v20.jpg>
 Package pdftex.def Info: Figures/v19v20.jpg  used on input line 158.
 (pdftex.def)             Requested size: 271.01459pt x 135.5073pt.
 [6 <./Figures/v19v20.jpg>]
-<Figures/groupe.png, id=340, 1353.55687pt x 634.62094pt>
+<Figures/groupe.png, id=369, 1353.55687pt x 634.62094pt>
 File: Figures/groupe.png Graphic file (type png)
 <use Figures/groupe.png>
 Package pdftex.def Info: Figures/groupe.png  used on input line 184.
 (pdftex.def)             Requested size: 473.752pt x 222.12065pt.
-<Figures/carte.jpg, id=341, 743.77875pt x 417.05812pt>
+<Figures/carte.jpg, id=370, 743.77875pt x 417.05812pt>
 File: Figures/carte.jpg Graphic file (type jpg)
 <use Figures/carte.jpg>
 Package pdftex.def Info: Figures/carte.jpg  used on input line 196.
@@ -1420,13 +1420,13 @@ Package pdftex.def Info: Figures/carte.jpg  used on input line 196.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/direction.jpg, id=342, 737.75626pt x 319.1925pt>
+<Figures/direction.jpg, id=371, 737.75626pt x 319.1925pt>
 File: Figures/direction.jpg Graphic file (type jpg)
 <use Figures/direction.jpg>
 Package pdftex.def Info: Figures/direction.jpg  used on input line 209.
 (pdftex.def)             Requested size: 442.65717pt x 191.51697pt.
 [7 <./Figures/groupe.png>]
-<Figures/domaineMetier.jpg, id=348, 1206.75844pt x 773.13844pt>
+<Figures/domaineMetier.jpg, id=376, 1206.75844pt x 773.13844pt>
 File: Figures/domaineMetier.jpg Graphic file (type jpg)
 <use Figures/domaineMetier.jpg>
 Package pdftex.def Info: Figures/domaineMetier.jpg  used on input line 223.
@@ -1436,7 +1436,7 @@ Package pdftex.def Info: Figures/domaineMetier.jpg  used on input line 223.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8 <./Figures/carte.jpg> <./Figures/direction.jpg>] [9 <./Figures/domaineMetier.jpg>] [10{C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
-<Figures/DiagrammeDeGantt.jpg, id=362, 963.6pt x 236.38312pt>
+<Figures/DiagrammeDeGantt.jpg, id=390, 963.6pt x 236.38312pt>
 File: Figures/DiagrammeDeGantt.jpg Graphic file (type jpg)
 <use Figures/DiagrammeDeGantt.jpg>
 Package pdftex.def Info: Figures/DiagrammeDeGantt.jpg  used on input line 284.
@@ -1446,12 +1446,12 @@ Chapitre 2.
 [13
 
 ] [14] [15]
-<Figures/apprenant.PNG, id=384, 499.36563pt x 244.915pt>
+<Figures/apprenant.PNG, id=412, 499.36563pt x 244.915pt>
 File: Figures/apprenant.PNG Graphic file (type png)
 <use Figures/apprenant.PNG>
 Package pdftex.def Info: Figures/apprenant.PNG  used on input line 104.
 (pdftex.def)             Requested size: 426.79134pt x 209.326pt.
-<Figures/administrateur.PNG, id=385, 447.6725pt x 327.2225pt>
+<Figures/administrateur.PNG, id=413, 447.6725pt x 327.2225pt>
 File: Figures/administrateur.PNG Graphic file (type png)
 <use Figures/administrateur.PNG>
 Package pdftex.def Info: Figures/administrateur.PNG  used on input line 110.
@@ -1498,29 +1498,77 @@ Chapitre 3.
 [23
 
 ]
-<Figures/architecturePhysique.png, id=471, 241.8636pt x 142.3719pt>
+<Logos/Figma.png, id=499, 1673.25125pt x 2509.375pt>
+File: Logos/Figma.png Graphic file (type png)
+<use Logos/Figma.png>
+Package pdftex.def Info: Logos/Figma.png  used on input line 22.
+(pdftex.def)             Requested size: 83.66745pt x 125.47609pt.
+<Figures/login.PNG, id=500, 625.83812pt x 388.95313pt>
+File: Figures/login.PNG Graphic file (type png)
+<use Figures/login.PNG>
+Package pdftex.def Info: Figures/login.PNG  used on input line 42.
+(pdftex.def)             Requested size: 238.01991pt x 147.92834pt.
+<Figures/home.PNG, id=501, 963.6pt x 485.815pt>
+File: Figures/home.PNG Graphic file (type png)
+<use Figures/home.PNG>
+Package pdftex.def Info: Figures/home.PNG  used on input line 48.
+(pdftex.def)             Requested size: 238.01991pt x 120.0005pt.
+ [24 <./Logos/Figma.png>]
+<Figures/explorer.PNG, id=508, 288.57813pt x 304.63812pt>
+File: Figures/explorer.PNG Graphic file (type png)
+<use Figures/explorer.PNG>
+Package pdftex.def Info: Figures/explorer.PNG  used on input line 57.
+(pdftex.def)             Requested size: 238.01991pt x 251.2784pt.
+<Figures/watchVideo.PNG, id=509, 519.44063pt x 390.45876pt>
+File: Figures/watchVideo.PNG Graphic file (type png)
+<use Figures/watchVideo.PNG>
+Package pdftex.def Info: Figures/watchVideo.PNG  used on input line 64.
+(pdftex.def)             Requested size: 238.01991pt x 178.91612pt.
+<Figures/overview.PNG, id=510, 201.25188pt x 333.245pt>
+File: Figures/overview.PNG Graphic file (type png)
+<use Figures/overview.PNG>
+Package pdftex.def Info: Figures/overview.PNG  used on input line 75.
+(pdftex.def)             Requested size: 238.01991pt x 394.1257pt.
+<Figures/Chapter.PNG, id=511, 201.75375pt x 334.75063pt>
+File: Figures/Chapter.PNG Graphic file (type png)
+<use Figures/Chapter.PNG>
+Package pdftex.def Info: Figures/Chapter.PNG  used on input line 81.
+(pdftex.def)             Requested size: 238.01991pt x 394.92569pt.
+ [25 <./Figures/login.PNG> <./Figures/home.PNG> <./Figures/explorer.PNG> <./Figures/watchVideo.PNG>]
+<Figures/AuthorDetails.PNG, id=520, 253.94875pt x 316.68312pt>
+File: Figures/AuthorDetails.PNG Graphic file (type png)
+<use Figures/AuthorDetails.PNG>
+Package pdftex.def Info: Figures/AuthorDetails.PNG  used on input line 91.
+(pdftex.def)             Requested size: 238.01991pt x 296.8317pt.
+<Figures/comment.PNG, id=521, 206.27063pt x 334.24875pt>
+File: Figures/comment.PNG Graphic file (type png)
+<use Figures/comment.PNG>
+Package pdftex.def Info: Figures/comment.PNG  used on input line 97.
+(pdftex.def)             Requested size: 238.01991pt x 385.70403pt.
+ [26 <./Figures/overview.PNG> <./Figures/Chapter.PNG>]
+<Figures/architecturePhysique.png, id=528, 241.8636pt x 142.3719pt>
 File: Figures/architecturePhysique.png Graphic file (type png)
 <use Figures/architecturePhysique.png>
-Package pdftex.def Info: Figures/architecturePhysique.png  used on input line 31.
+Package pdftex.def Info: Figures/architecturePhysique.png  used on input line 116.
 (pdftex.def)             Requested size: 426.79134pt x 251.24657pt.
- [24 <./Figures/architecturePhysique.png>]
-<Figures/architectureLogique.png, id=477, 527.0892pt x 752.8125pt>
+ [27 <./Figures/AuthorDetails.PNG> <./Figures/comment.PNG>]
+<Figures/architectureLogique.png, id=535, 527.0892pt x 752.8125pt>
 File: Figures/architectureLogique.png Graphic file (type png)
 <use Figures/architectureLogique.png>
-Package pdftex.def Info: Figures/architectureLogique.png  used on input line 56.
+Package pdftex.def Info: Figures/architectureLogique.png  used on input line 141.
 (pdftex.def)             Requested size: 256.0748pt x 365.7454pt.
- [25] [26 <./Figures/architectureLogique.png>]
-<Figures/orda.png, id=488, 768.8725pt x 568.1225pt>
+ [28 <./Figures/architecturePhysique.png>] [29 <./Figures/architectureLogique.png>]
+<Figures/orda.png, id=546, 768.8725pt x 568.1225pt>
 File: Figures/orda.png Graphic file (type png)
 <use Figures/orda.png>
-Package pdftex.def Info: Figures/orda.png  used on input line 78.
+Package pdftex.def Info: Figures/orda.png  used on input line 163.
 (pdftex.def)             Requested size: 426.79134pt x 315.36372pt.
-<Figures/architectureTechnique.png, id=489, 527.0892pt x 752.8125pt>
+<Figures/architectureTechnique.png, id=547, 527.0892pt x 752.8125pt>
 File: Figures/architectureTechnique.png Graphic file (type png)
 <use Figures/architectureTechnique.png>
-Package pdftex.def Info: Figures/architectureTechnique.png  used on input line 88.
+Package pdftex.def Info: Figures/architectureTechnique.png  used on input line 173.
 (pdftex.def)             Requested size: 284.52756pt x 406.38634pt.
- [27 <./Figures/orda.png>]) (Endmatter/Bibliography.tex [28 <./Figures/architectureTechnique.png>]) [29
+ [30 <./Figures/orda.png>]) (Endmatter/Bibliography.tex [31 <./Figures/architectureTechnique.png>]) [32
 
 ] (main.aux (Frontmatter/Page_de_Garde_EN.aux))
  ***********
@@ -1762,6 +1810,15 @@ Chapitres/Chapitre2.tex
 Figures/apprenant.PNG
 Figures/administrateur.PNG
 Chapitres/Chapitre3.tex
+Logos/Figma.png
+Figures/login.PNG
+Figures/home.PNG
+Figures/explorer.PNG
+Figures/watchVideo.PNG
+Figures/overview.PNG
+Figures/Chapter.PNG
+Figures/AuthorDetails.PNG
+Figures/comment.PNG
 Figures/architecturePhysique.png
 Figures/architectureLogique.png
 Figures/orda.png
@@ -1776,24 +1833,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9B061A4482194094F02E2D92ED35E338;6321.
+(rerunfilecheck)             Checksum: A207D6C2B13A3C12C4348560BC646362;6576.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 41 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 41210 strings out of 474485
- 766707 string characters out of 5745151
+ 41304 strings out of 474485
+ 768818 string characters out of 5745151
  1952542 words of memory out of 5000000
- 62520 multiletter control sequences out of 15000+600000
+ 62603 multiletter control sequences out of 15000+600000
  617722 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,13n,96p,2397b,2861s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14bf.pfb>
-Output written on main.pdf (41 pages, 2348440 bytes).
+Output written on main.pdf (45 pages, 5123996 bytes).
 PDF statistics:
- 586 PDF objects out of 1000 (max. 8388607)
- 152 named destinations out of 1000 (max. 500000)
- 427 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 647 PDF objects out of 1000 (max. 8388607)
+ 163 named destinations out of 1000 (max. 500000)
+ 488 words of extra memory for PDF output out of 10000 (max. 10000000)
 
