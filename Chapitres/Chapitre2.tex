@@ -10,9 +10,86 @@ Dans ce chapitre, nous abordons l’étape d’analyse et spécification des bes
 
 \section{Spécification des exigences}
 
+Cette phase de l’application vise à définir la frontière fonctionnelle entre le système et son environnement. Pour affiner les objectifs définis dans le contexte général du projet, il est essentiel de répondre à deux questions principales : Quels sont les utilisateurs du système ? Qu'attendent-ils de ce système ?
+
+Pour trouver la réponse, nous avons opté pour la démarche suivante : 
+
+- Définir les acteurs du système. 
+
+- Lister ce que doit offrir le système à son utilisateur.
+
+
 \subsection{Identification des acteurs}
+
+Un acteur représente l’abstraction d’un rôle joué par des entités externes qui
+interagissent directement avec le système étudié. Un acteur peut consulter et/ou
+modifier directement l’état du système, en émettant et/ou en recevant des messages
+susceptibles d'être porteur de données.
+
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{|m{5cm}|m{10cm}|}
+        \hline
+        \textbf{Acteur} & \textbf{Rôle dans l'application} \\
+        \hline
+        Administrateur & Responsable de la gestion technique et opérationnelle de l'application, de la gestion des comptes des utilisateurs (Formateurs et Apprenants), de la sécurité des données et du support technique. Ainsi la création, gestion et mise à jour des cours. \\
+        \hline
+        Apprenant & Utilisateur principal de la plateforme, pouvant accéder aux cours, suivre les chapitres de formation, évaluer les contenus. \\
+        \hline
+    \end{tabular}
+    \caption{Rôles dans l'application}
+    \label{tab:roles}
+\end{table}
+
 \subsection{Exigences fonctionnelles}
+
+
+\begin{itemize}
+    \item[$\bullet$] \textbf{Authentification:} C’est l’étape primordiale pour toutes les fonctionnalités. Il s’agit de saisir un identifiant (email ou nom d'utilisateur) et un mot de passe puis de valider pour pouvoir exploiter les autres services.
+    \item[$\bullet$] \textbf{Gestion des Abonnements:} Permettre aux apprenants de payer un abonnement pour accéder aux formations.
+    \item[$\bullet$] \textbf{Gestion des Formations pour les Apprenants:}
+    \begin{itemize}
+        \item  S'inscrire à une formation: Permettre aux apprenants de s'inscrire à une formation après s'être authentifiés et avoir payé l'abonnement si nécessaire.
+        \item  Consulter une formation: Permettre aux apprenants de consulter les détails d'une formation à laquelle ils sont inscrits.
+        \item  Évaluer une formation: Permettre aux apprenants d'évaluer une formation après l'avoir suivie.
+        \item  Chercher une formation: Permettre aux apprenants de rechercher des formations disponibles sur la plateforme.
+        \item  Consulter le profil d'un formateur: Permettre aux apprenants de consulter les profils des formateurs sur la plateforme.
+    \end{itemize}
+    \item[$\bullet$] \textbf{Gestion des Profils Apprenants:}
+    \begin{itemize}
+        \item  Modifier son profil: Permettre aux apprenants de modifier leurs informations personnelles sur leur profil.
+    \end{itemize}
+    \item[$\bullet$] \textbf{Gestion des Formations pour les Administrateurs:}
+    \begin{itemize}
+        \item  Ajouter une formation: Permettre aux administrateurs d'ajouter une nouvelle formation sur la plateforme.
+        \item  Supprimer une formation: Permettre aux administrateurs de supprimer une formation existante.
+    \end{itemize}
+    \item[$\bullet$] \textbf{Gestion des Profils Administrateurs:}
+    \begin{itemize}
+        \item  Modifier son profil: Permettre aux administrateurs de modifier leurs informations personnelles sur leur profil.
+    \end{itemize}
+    \item[$\bullet$] \textbf{Gestion des Questions et Réponses:}
+    \begin{itemize}
+        \item  Répondre aux questions: Permettre aux administrateurs de répondre aux questions posées par les apprenants.
+    \end{itemize}
+    \item[$\bullet$] \textbf{Gestion des Statistiques:}
+    \begin{itemize}
+        \item  Consulter les statistiques: Permettre aux administrateurs de consulter les statistiques de la plateforme.
+    \end{itemize}
+\end{itemize}
+
+
 \subsection{Exigences non-fonctionnelles}
+
+
+Ce sont les besoins qui permettent d’améliorer la qualité des services de la plateforme comme la convivialité et l’ergonomie des interfaces et l’amélioration du temps de réponse. Parmi ces besoins, on cite :
+
+\begin{itemize}
+    \item[$\bullet$] \textbf{La convivialité:} La future application doit être facile à utiliser. En effet, les interfaces utilisateur doivent être conviviales c’est-à-dire simples, ergonomiques et adaptées à l’utilisateur.
+    \item[$\bullet$] \textbf{L’évolutivité:} Toute architecture est exposée à des évolutions au niveau de la technologie d’implémentation. La solution doit avoir un grand niveau d’abstraction pour faciliter les nouvelles implémentations.
+    \item[$\bullet$] \textbf{Temps de réponse:} Le temps de réponse doit être le plus court possible.
+    \item[$\bullet$] \textbf{La disponibilité:} Lorsque n’importe quel utilisateur désire consulter la plateforme, elle doit être disponible.
+\end{itemize}
 
 \section{Identification de cas d’utilisation}
 

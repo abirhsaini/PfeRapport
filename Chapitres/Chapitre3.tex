@@ -8,7 +8,12 @@ l’application, puis nous allons détailler la conception en présentant les
 diagrammes de séquence et les diagrammes de classe. Ces diagrammes permettent de visualiser les différentes étapes du processus et la structure du système.
 
 \pagebreak
+\section{Prototypage}
 
+Le prototypage est une étape importante dans le processus de développement de notre application. Il permet de créer une version préliminaire de
+ l'application pour tester ces fonctionnalités, recueillir des retours utilisateurs, et identifier d'éventuelles améliorations avant de passer à la phase de développement complète.
+
+ Dans cette section, nous décrirons les étapes de création du prototype
 \section{Architecture de l’application}
 
 \subsection{Architecture physique}
@@ -59,6 +64,21 @@ sans avoir à se soucier des détails techniques des autres couches. Cette appro
 un développement rapide et efficace, tout en offrant des fonctionnalités avancées pour
 répondre aux besoins spécifiques des projets.
 
+Aussi, nous avons travaillé avec ORDA, est une technologie spécifique qui facilite
+l’accès à une base de données relationnelle en tant qu’objets. Elle permet de manipuler les
+données de la base de données à l’aide d’un langage de programmation orienté objet ou
+d’interfaces utilisateur spécifiques. ORDA simplifie l’interaction avec la base de données
+en fournissant des abstractions supplémentaires et en masquant certaines complexités liées
+aux requêtes SQL.
+
+ORDA nous permet de créer des fonctions de classe de haut niveau au-dessus du modèle de données. Cela nous permet d'écrire du code orienté métier et de le «publier» comme une API. Le datastore, les dataclasses, les entity selections et les entités sont tous disponibles en tant qu'objets de classe pouvant contenir des fonctions.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{Figures/orda.png}
+    \caption{Orda Data model classe.}
+\end{figure}
+
 Grâce à 4D, les développeurs peuvent se concentrer sur l’essentiel et créer des applications puissantes et performantes en toute simplicité.
 
 \subsection{architecture techniques}
@@ -73,9 +93,3 @@ Le connecteur s’occupe de la récolte des données saisies par l’utilisateur
 récupère les données reçues et les transmet à la couche métier qui effectue les traitements
 nécessaires. La couche 4D Database s’occupe de la sérialisation et la dé-sérialisation.
 
-ussi, nous avons travaillé avec ORDA, est une technologie spécifique qui facilite
-l’accès à une base de données relationnelle en tant qu’objets. Elle permet de manipuler les
-données de la base de données à l’aide d’un langage de programmation orienté objet ou
-d’interfaces utilisateur spécifiques. ORDA simplifie l’interaction avec la base de données
-en fournissant des abstractions supplémentaires et en masquant certaines complexités liées
-aux requêtes SQL.
