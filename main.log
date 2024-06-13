@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.1)  8 JUN 2024 16:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.1)  13 JUN 2024 20:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -701,23 +701,31 @@ Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
 \SOUL@ulht=\dimen321
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+)) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip99
+\enit@outerparindent=\dimen322
+\enit@toks=\toks78
+\enit@inbox=\box104
+\enit@count@id=\count364
+\enitdp@description=\count365
+) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count364
-\Gm@cntv=\count365
-\c@Gm@tempcnt=\count366
-\Gm@bindingoffset=\dimen322
-\Gm@wd@mp=\dimen323
-\Gm@odd@mp=\dimen324
-\Gm@even@mp=\dimen325
-\Gm@layoutwidth=\dimen326
-\Gm@layoutheight=\dimen327
-\Gm@layouthoffset=\dimen328
-\Gm@layoutvoffset=\dimen329
-\Gm@dimlist=\toks78
+\Gm@cnth=\count366
+\Gm@cntv=\count367
+\c@Gm@tempcnt=\count368
+\Gm@bindingoffset=\dimen323
+\Gm@wd@mp=\dimen324
+\Gm@odd@mp=\dimen325
+\Gm@even@mp=\dimen326
+\Gm@layoutwidth=\dimen327
+\Gm@layoutheight=\dimen328
+\Gm@layouthoffset=\dimen329
+\Gm@layoutvoffset=\dimen330
+\Gm@dimlist=\toks79
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
@@ -739,11 +747,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count367
+\c@section@level=\count369
 )
-\@linkdim=\dimen330
-\Hy@linkcounter=\count368
-\Hy@pagecounter=\count369
+\@linkdim=\dimen331
+\Hy@linkcounter=\count370
+\Hy@pagecounter=\count371
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -751,7 +759,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count370
+\Hy@SavedSpaceFactor=\count372
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -764,21 +772,21 @@ Package hyperref Info: Plain pages OFF on input line 4196.
 Package hyperref Info: Backreferencing OFF on input line 4201.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4448.
-\c@Hy@tempcnt=\count371
+\c@Hy@tempcnt=\count373
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4786.
-\XeTeXLinkMargin=\dimen331
+\XeTeXLinkMargin=\dimen332
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count372
-\Field@Width=\dimen332
-\Fld@charsize=\dimen333
+\Fld@menulength=\count374
+\Field@Width=\dimen333
+\Fld@charsize=\dimen334
 Package hyperref Info: Hyper figures OFF on input line 6065.
 Package hyperref Info: Link nesting OFF on input line 6070.
 Package hyperref Info: Hyper index ON on input line 6073.
@@ -790,9 +798,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6095.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count373
-\c@Item=\count374
-\c@Hfootnote=\count375
+\Hy@abspage=\count375
+\c@Item=\count376
+\c@Hfootnote=\count377
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -801,8 +809,8 @@ File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count376
-\c@bookmark@seq@number=\count377
+\Fld@listcount=\count378
+\c@bookmark@seq@number=\count379
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
@@ -810,27 +818,27 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip99
+\Hy@SectionHShift=\skip100
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 52.
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count378
-\lst@gtempboxa=\box104
-\lst@token=\toks79
-\lst@length=\count379
-\lst@currlwidth=\dimen334
-\lst@column=\count380
-\lst@pos=\count381
-\lst@lostspace=\dimen335
-\lst@width=\dimen336
-\lst@newlines=\count382
-\lst@lineno=\count383
-\lst@maxwidth=\dimen337
+\lst@mode=\count380
+\lst@gtempboxa=\box105
+\lst@token=\toks80
+\lst@length=\count381
+\lst@currlwidth=\dimen335
+\lst@column=\count382
+\lst@pos=\count383
+\lst@lostspace=\dimen336
+\lst@width=\dimen337
+\lst@newlines=\count384
+\lst@lineno=\count385
+\lst@maxwidth=\dimen338
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count384
-\lst@skipnumbers=\count385
-\lst@framebox=\box105
+\c@lstnumber=\count386
+\lst@skipnumbers=\count387
+\lst@framebox=\box106
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
@@ -839,19 +847,19 @@ Package: listings 2023/02/27 1.9 (Carsten Heinz)
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen338
-\captionmargin=\dimen339
-\caption@leftmargin=\dimen340
-\caption@rightmargin=\dimen341
-\caption@width=\dimen342
-\caption@indent=\dimen343
-\caption@parindent=\dimen344
-\caption@hangindent=\dimen345
+\caption@tempdima=\dimen339
+\captionmargin=\dimen340
+\caption@leftmargin=\dimen341
+\caption@rightmargin=\dimen342
+\caption@width=\dimen343
+\caption@indent=\dimen344
+\caption@parindent=\dimen345
+\caption@hangindent=\dimen346
 Package caption Info: Standard document class detected.
 Package caption Info: french babel package is loaded.
 )
-\c@caption@flags=\count386
-\c@continuedfloat=\count387
+\c@caption@flags=\count388
+\c@continuedfloat=\count389
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -859,85 +867,85 @@ Package caption Info: rotating package is loaded.
 Package caption Info: subfigure package is loaded.
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
-\LTleft=\skip100
-\LTright=\skip101
-\LTpre=\skip102
-\LTpost=\skip103
-\LTchunksize=\count388
-\LTcapwidth=\dimen346
-\LT@head=\box106
-\LT@firsthead=\box107
-\LT@foot=\box108
-\LT@lastfoot=\box109
-\LT@gbox=\box110
-\LT@cols=\count389
-\LT@rows=\count390
-\c@LT@tables=\count391
-\c@LT@chunks=\count392
-\LT@p@ftn=\toks80
+\LTleft=\skip101
+\LTright=\skip102
+\LTpre=\skip103
+\LTpost=\skip104
+\LTchunksize=\count390
+\LTcapwidth=\dimen347
+\LT@head=\box107
+\LT@firsthead=\box108
+\LT@foot=\box109
+\LT@lastfoot=\box110
+\LT@gbox=\box111
+\LT@cols=\count391
+\LT@rows=\count392
+\c@LT@tables=\count393
+\c@LT@chunks=\count394
+\LT@p@ftn=\toks81
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen347
-\lightrulewidth=\dimen348
-\cmidrulewidth=\dimen349
-\belowrulesep=\dimen350
-\belowbottomsep=\dimen351
-\aboverulesep=\dimen352
-\abovetopsep=\dimen353
-\cmidrulesep=\dimen354
-\cmidrulekern=\dimen355
-\defaultaddspace=\dimen356
-\@cmidla=\count393
-\@cmidlb=\count394
-\@aboverulesep=\dimen357
-\@belowrulesep=\dimen358
-\@thisruleclass=\count395
-\@lastruleclass=\count396
-\@thisrulewidth=\dimen359
+\heavyrulewidth=\dimen348
+\lightrulewidth=\dimen349
+\cmidrulewidth=\dimen350
+\belowrulesep=\dimen351
+\belowbottomsep=\dimen352
+\aboverulesep=\dimen353
+\abovetopsep=\dimen354
+\cmidrulesep=\dimen355
+\cmidrulekern=\dimen356
+\defaultaddspace=\dimen357
+\@cmidla=\count395
+\@cmidlb=\count396
+\@aboverulesep=\dimen358
+\@belowrulesep=\dimen359
+\@thisruleclass=\count397
+\@lastruleclass=\count398
+\@thisrulewidth=\dimen360
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
 Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
-\AP@output=\toks81
-\AP@partial=\box111
-\AP@footins=\box112
+\AP@output=\toks82
+\AP@partial=\box112
+\AP@footins=\box113
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossaries.sty
 Package: glossaries 2024/04/03 v4.54 (NLCT)
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks82
-\XKV@tempa@toks=\toks83
+\XKV@toks=\toks83
+\XKV@tempa@toks=\toks84
 )
-\XKV@depth=\count397
+\XKV@depth=\count399
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
-\@glsmfirst=\toks84
-\@glsmrest=\toks85
+\@glsmfirst=\toks85
+\@glsmrest=\toks86
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.sty
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count398
+\c@su@anzahl=\count400
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
 Package: fp 1995/04/02
  `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count399
+\actioncount=\count401
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count400
-\FP@xia=\count401
-\FP@xib=\count402
-\FP@xfa=\count403
-\FP@xfb=\count404
-\FP@rega=\count405
-\FP@regb=\count406
-\FP@regs=\count407
-\FP@times=\count408
+\FP@xs=\count402
+\FP@xia=\count403
+\FP@xib=\count404
+\FP@xfa=\count405
+\FP@xfb=\count406
+\FP@rega=\count407
+\FP@regb=\count408
+\FP@regs=\count409
+\FP@times=\count410
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
 Package: fp-addons 1995/03/15
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.sty
@@ -950,7 +958,7 @@ Package: fp-trigo 1995/04/14
 Package: fp-pas 1994/08/29
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count409
+\FPseed=\count411
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
 Package: fp-eqn 1995/04/03
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty
@@ -958,15 +966,15 @@ Package: fp-upn 1996/10/21
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks86
-\@dtl@tmpcount=\count410
-\dtl@tmplength=\skip104
-\dtl@sortresult=\count411
-\@dtl@numgrpsepcount=\count412
-\@dtl@datatype=\count413
-\dtl@codeA=\count414
-\dtl@codeB=\count415
-\@dtl@foreach@level=\count416
+\@dtl@toks=\toks87
+\@dtl@tmpcount=\count412
+\dtl@tmplength=\skip105
+\dtl@sortresult=\count413
+\@dtl@numgrpsepcount=\count414
+\@dtl@datatype=\count415
+\dtl@codeA=\count416
+\dtl@codeB=\count417
+\@dtl@foreach@level=\count418
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
 Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.tex)) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.sty
@@ -974,44 +982,44 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-french\glossaries-french.ldf
 File: glossaries-french.ldf 2016/12/12 v1.1
 )
-\gls@level=\count417
-\@gls@tmpb=\toks87
-\gls@tmplen=\skip105
-\glskeylisttok=\toks88
-\glslabeltok=\toks89
-\glsshorttok=\toks90
-\glslongtok=\toks91
+\gls@level=\count419
+\@gls@tmpb=\toks88
+\gls@tmplen=\skip106
+\glskeylisttok=\toks89
+\glslabeltok=\toks90
+\glsshorttok=\toks91
+\glslongtok=\toks92
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-hypernav.sty
 Package: glossary-hypernav 2024/04/03 v4.54 (NLCT)
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-list.sty
 Package: glossary-list 2024/04/03 v4.54 (NLCT)
-\glslistdottedwidth=\skip106
+\glslistdottedwidth=\skip107
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-long.sty
 Package: glossary-long 2024/04/03 v4.54 (NLCT)
-\glsdescwidth=\skip107
-\glspagelistwidth=\skip108
+\glsdescwidth=\skip108
+\glspagelistwidth=\skip109
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-super.sty
 Package: glossary-super 2024/04/03 v4.54 (NLCT)
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count418
-\ST@wd=\dimen360
-\ST@rightskip=\skip109
-\ST@leftskip=\skip110
-\ST@parfillskip=\skip111
-\ST@pageleft=\dimen361
-\ST@headht=\dimen362
-\ST@tailht=\dimen363
-\ST@pagesofar=\dimen364
-\ST@pboxht=\dimen365
-\ST@lineht=\dimen366
-\ST@prevht=\dimen367
-\ST@toadd=\dimen368
-\ST@dimen=\dimen369
-\ST@pbox=\box113
+\c@tracingst=\count420
+\ST@wd=\dimen361
+\ST@rightskip=\skip110
+\ST@leftskip=\skip111
+\ST@parfillskip=\skip112
+\ST@pageleft=\dimen362
+\ST@headht=\dimen363
+\ST@tailht=\dimen364
+\ST@pagesofar=\dimen365
+\ST@pboxht=\dimen366
+\ST@lineht=\dimen367
+\ST@prevht=\dimen368
+\ST@toadd=\dimen369
+\ST@dimen=\dimen370
+\ST@pbox=\box114
 )) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-tree.sty
 Package: glossary-tree 2024/04/03 v4.54 (NLCT)
-\glstreeindent=\skip112
+\glstreeindent=\skip113
 )) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -1082,20 +1090,26 @@ LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 LaTeX Info: Redefining \degres on input line 41.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 41.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 41.
 LaTeX Info: Redefining \up on input line 41.
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count419
-\scratchdimen=\dimen370
-\scratchbox=\box114
-\nofMPsegments=\count420
-\nofMParguments=\count421
-\everyMPshowfont=\toks92
-\MPscratchCnt=\count422
-\MPscratchDim=\dimen371
-\MPnumerator=\count423
-\makeMPintoPDFobject=\count424
-\everyMPtoPDFconversion=\toks93
+\scratchcounter=\count421
+\scratchdimen=\dimen371
+\scratchbox=\box115
+\nofMPsegments=\count422
+\nofMParguments=\count423
+\everyMPshowfont=\toks93
+\MPscratchCnt=\count424
+\MPscratchDim=\dimen372
+\MPnumerator=\count425
+\makeMPintoPDFobject=\count426
+\everyMPtoPDFconversion=\toks94
 ) (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1141,7 +1155,7 @@ Package hyperref Info: Link coloring ON on input line 41.
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
-\c@lstlisting=\count425
+\c@lstlisting=\count427
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
@@ -1150,19 +1164,19 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\apatch.sty
-\a@lines=\count426
-\a@Lwidth=\dimen372
-\a@displaywidth=\dimen373
+\a@lines=\count428
+\a@Lwidth=\dimen373
+\a@displaywidth=\dimen374
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\alocal.sty (ArabTeX) 3.11 local stub, 26.02.2006) (ArabTeX) version 3.11s (02.07.2006): second phase of patching)
 \openout2 = `Frontmatter/Page_de_Garde_EN.aux'.
 
  (Frontmatter/Page_de_Garde_EN.tex
-<Logos/Logo_INPT.png, id=166, 1203.49625pt x 592.2125pt>
+<Logos/Logo_INPT.png, id=354, 1203.49625pt x 592.2125pt>
 File: Logos/Logo_INPT.png Graphic file (type png)
 <use Logos/Logo_INPT.png>
 Package pdftex.def Info: Logos/Logo_INPT.png  used on input line 3.
 (pdftex.def)             Requested size: 96.28166pt x 47.37796pt.
-<Logos/Logo_ANRT.jpg, id=168, 803.0pt x 569.12625pt>
+<Logos/Logo_ANRT.jpg, id=356, 803.0pt x 569.12625pt>
 File: Logos/Logo_ANRT.jpg Graphic file (type jpg)
 <use Logos/Logo_ANRT.jpg>
 Package pdftex.def Info: Logos/Logo_ANRT.jpg  used on input line 5.
@@ -1180,7 +1194,7 @@ LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
 LaTeX Font Warning: Font shape `T1/lmr/bx/scsl' undefined
 (Font)              using `T1/lmr/bx/n' instead on input line 11.
 
-<Logos/Logo-4D.jpg, id=169, 122.4575pt x 171.64125pt>
+<Logos/Logo-4D.jpg, id=357, 122.4575pt x 171.64125pt>
 File: Logos/Logo-4D.jpg Graphic file (type jpg)
 <use Logos/Logo-4D.jpg>
 Package pdftex.def Info: Logos/Logo-4D.jpg  used on input line 19.
@@ -1215,7 +1229,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Logos/ZLAFA.png, id=170, 548.80031pt x 210.03468pt>
+<Logos/ZLAFA.png, id=358, 548.80031pt x 210.03468pt>
 File: Logos/ZLAFA.png Graphic file (type png)
 <use Logos/ZLAFA.png>
 Package pdftex.def Info: Logos/ZLAFA.png  used on input line 47.
@@ -1233,12 +1247,12 @@ l.77 \frontmatter
 
 
 ] (Frontmatter/Dedication.tex
-<Logos/quote2.png, id=186, 813.0375pt x 813.0375pt>
+<Logos/quote2.png, id=374, 813.0375pt x 813.0375pt>
 File: Logos/quote2.png Graphic file (type png)
 <use Logos/quote2.png>
 Package pdftex.def Info: Logos/quote2.png  used on input line 38.
 (pdftex.def)             Requested size: 16.26418pt x 16.26418pt.
-<Logos/quote1.png, id=187, 813.0375pt x 813.0375pt>
+<Logos/quote1.png, id=375, 813.0375pt x 813.0375pt>
 File: Logos/quote1.png Graphic file (type png)
 <use Logos/quote1.png>
 Package pdftex.def Info: Logos/quote1.png  used on input line 51.
@@ -1281,29 +1295,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--97
 
 ] (main.lof [6
 
-])
+] [7])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [7] (main.lot)
+ [8] (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [8
+ [9
 
 ] (main.lol)
 \tf@lol=\write9
 \openout9 = `main.lol'.
 
- [9
+ [10
 
-] (main.toc [10
+] (main.toc [11
 
-])
+] [12] [13])
 \tf@toc=\write10
 \openout10 = `main.toc'.
 
- [11] (Frontmatter/IntroductionGenerale.tex
+ [14] (Frontmatter/IntroductionGenerale.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -1355,7 +1369,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--34
 
  []
 
-<Figures/80.jpg, id=344, 1260.20813pt x 411.03563pt>
+<Figures/80.jpg, id=661, 1260.20813pt x 411.03563pt>
 File: Figures/80.jpg Graphic file (type jpg)
 <use Figures/80.jpg>
 Package pdftex.def Info: Figures/80.jpg  used on input line 43.
@@ -1370,12 +1384,12 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 57
  (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<Figures/90.jpg, id=349, 985.43156pt x 450.18187pt>
+<Figures/90.jpg, id=667, 985.43156pt x 450.18187pt>
 File: Figures/90.jpg Graphic file (type jpg)
 <use Figures/90.jpg>
 Package pdftex.def Info: Figures/90.jpg  used on input line 65.
 (pdftex.def)             Requested size: 295.63174pt x 135.0556pt.
-<Figures/20.jpg, id=350, 1299.35437pt x 514.92375pt>
+<Figures/20.jpg, id=668, 1299.35437pt x 514.92375pt>
 File: Figures/20.jpg Graphic file (type jpg)
 <use Figures/20.jpg>
 Package pdftex.def Info: Figures/20.jpg  used on input line 79.
@@ -1385,7 +1399,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--109
 
  []
 
-<Figures/versions.jpg, id=357, 682.80093pt x 222.07968pt>
+<Figures/versions.jpg, id=675, 682.80093pt x 222.07968pt>
 File: Figures/versions.jpg Graphic file (type jpg)
 <use Figures/versions.jpg>
 Package pdftex.def Info: Figures/versions.jpg  used on input line 121.
@@ -1400,18 +1414,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--143
 
  []
 
-<Figures/v19v20.jpg, id=363, 903.375pt x 451.6875pt>
+<Figures/v19v20.jpg, id=681, 903.375pt x 451.6875pt>
 File: Figures/v19v20.jpg Graphic file (type jpg)
 <use Figures/v19v20.jpg>
 Package pdftex.def Info: Figures/v19v20.jpg  used on input line 158.
 (pdftex.def)             Requested size: 271.01459pt x 135.5073pt.
-[6 <./Figures/v19v20.jpg>]
-<Figures/groupe.png, id=369, 1353.55687pt x 634.62094pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6]
+<Figures/groupe.png, id=686, 1353.55687pt x 634.62094pt>
 File: Figures/groupe.png Graphic file (type png)
 <use Figures/groupe.png>
 Package pdftex.def Info: Figures/groupe.png  used on input line 184.
 (pdftex.def)             Requested size: 473.752pt x 222.12065pt.
-<Figures/carte.jpg, id=370, 743.77875pt x 417.05812pt>
+<Figures/carte.jpg, id=687, 743.77875pt x 417.05812pt>
 File: Figures/carte.jpg Graphic file (type jpg)
 <use Figures/carte.jpg>
 Package pdftex.def Info: Figures/carte.jpg  used on input line 196.
@@ -1420,13 +1437,13 @@ Package pdftex.def Info: Figures/carte.jpg  used on input line 196.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/direction.jpg, id=371, 737.75626pt x 319.1925pt>
+<Figures/direction.jpg, id=688, 737.75626pt x 319.1925pt>
 File: Figures/direction.jpg Graphic file (type jpg)
 <use Figures/direction.jpg>
 Package pdftex.def Info: Figures/direction.jpg  used on input line 209.
 (pdftex.def)             Requested size: 442.65717pt x 191.51697pt.
-[7 <./Figures/groupe.png>]
-<Figures/domaineMetier.jpg, id=376, 1206.75844pt x 773.13844pt>
+[7 <./Figures/v19v20.jpg> <./Figures/groupe.png>]
+<Figures/domaineMetier.jpg, id=693, 1206.75844pt x 773.13844pt>
 File: Figures/domaineMetier.jpg Graphic file (type jpg)
 <use Figures/domaineMetier.jpg>
 Package pdftex.def Info: Figures/domaineMetier.jpg  used on input line 223.
@@ -1436,7 +1453,7 @@ Package pdftex.def Info: Figures/domaineMetier.jpg  used on input line 223.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8 <./Figures/carte.jpg> <./Figures/direction.jpg>] [9 <./Figures/domaineMetier.jpg>] [10{C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
-<Figures/DiagrammeDeGantt.jpg, id=390, 963.6pt x 236.38312pt>
+<Figures/DiagrammeDeGantt.jpg, id=708, 963.6pt x 236.38312pt>
 File: Figures/DiagrammeDeGantt.jpg Graphic file (type jpg)
 <use Figures/DiagrammeDeGantt.jpg>
 Package pdftex.def Info: Figures/DiagrammeDeGantt.jpg  used on input line 284.
@@ -1446,12 +1463,12 @@ Chapitre 2.
 [13
 
 ] [14] [15]
-<Figures/apprenant.PNG, id=412, 499.36563pt x 244.915pt>
+<Figures/apprenant.PNG, id=730, 499.36563pt x 244.915pt>
 File: Figures/apprenant.PNG Graphic file (type png)
 <use Figures/apprenant.PNG>
 Package pdftex.def Info: Figures/apprenant.PNG  used on input line 104.
 (pdftex.def)             Requested size: 426.79134pt x 209.326pt.
-<Figures/administrateur.PNG, id=413, 447.6725pt x 327.2225pt>
+<Figures/administrateur.PNG, id=731, 447.6725pt x 327.2225pt>
 File: Figures/administrateur.PNG Graphic file (type png)
 <use Figures/administrateur.PNG>
 Package pdftex.def Info: Figures/administrateur.PNG  used on input line 110.
@@ -1462,7 +1479,17 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 116--150
  []
 
 [17 <./Figures/administrateur.PNG>] [18]
-Underfull \hbox (badness 1242) in paragraph at lines 180--181
+Underfull \hbox (badness 1005) in paragraph at lines 167--168
+[]\T1/lmr/m/n/12 Remplir les in-for-ma-tions né-ces-saires
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 176--177
+[]\T1/lmr/m/n/12 Remplir les in-for-ma-tions né-ces-saires
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 180--181
 []\T1/lmr/m/n/12 Un mes-sage d'er-reur spé-ci-fiant les
  []
 
@@ -1472,7 +1499,17 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 153--187
  []
 
 [19]
-Underfull \hbox (badness 1242) in paragraph at lines 215--216
+Underfull \hbox (badness 1005) in paragraph at lines 204--205
+[]\T1/lmr/m/n/12 Remplir les in-for-ma-tions né-ces-saires
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 212--213
+[]\T1/lmr/m/n/12 Remplir les in-for-ma-tions né-ces-saires
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 215--216
 []\T1/lmr/m/n/12 Un mes-sage d'er-reur spé-ci-fiant les
  []
 
@@ -1482,7 +1519,17 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 190--222
  []
 
 [20]
-Underfull \hbox (badness 1242) in paragraph at lines 248--249
+Underfull \hbox (badness 1005) in paragraph at lines 239--240
+[]\T1/lmr/m/n/12 Remplir les in-for-ma-tions né-ces-saires
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 246--247
+[]\T1/lmr/m/n/12 Remplir les in-for-ma-tions né-ces-saires
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 248--249
 []\T1/lmr/m/n/12 Un mes-sage d'er-reur spé-ci-fiant les
  []
 
@@ -1498,77 +1545,388 @@ Chapitre 3.
 [23
 
 ]
-<Logos/Figma.png, id=499, 1673.25125pt x 2509.375pt>
+<Logos/Figma.png, id=817, 1673.25125pt x 2509.375pt>
 File: Logos/Figma.png Graphic file (type png)
 <use Logos/Figma.png>
 Package pdftex.def Info: Logos/Figma.png  used on input line 22.
 (pdftex.def)             Requested size: 83.66745pt x 125.47609pt.
-<Figures/login.PNG, id=500, 625.83812pt x 388.95313pt>
+<Figures/login.PNG, id=818, 625.83812pt x 388.95313pt>
 File: Figures/login.PNG Graphic file (type png)
 <use Figures/login.PNG>
 Package pdftex.def Info: Figures/login.PNG  used on input line 42.
 (pdftex.def)             Requested size: 238.01991pt x 147.92834pt.
-<Figures/home.PNG, id=501, 963.6pt x 485.815pt>
+<Figures/home.PNG, id=819, 963.6pt x 485.815pt>
 File: Figures/home.PNG Graphic file (type png)
 <use Figures/home.PNG>
 Package pdftex.def Info: Figures/home.PNG  used on input line 48.
 (pdftex.def)             Requested size: 238.01991pt x 120.0005pt.
  [24 <./Logos/Figma.png>]
-<Figures/explorer.PNG, id=508, 288.57813pt x 304.63812pt>
+<Figures/explorer.PNG, id=825, 288.57813pt x 304.63812pt>
 File: Figures/explorer.PNG Graphic file (type png)
 <use Figures/explorer.PNG>
 Package pdftex.def Info: Figures/explorer.PNG  used on input line 57.
 (pdftex.def)             Requested size: 238.01991pt x 251.2784pt.
-<Figures/watchVideo.PNG, id=509, 519.44063pt x 390.45876pt>
+<Figures/watchVideo.PNG, id=826, 519.44063pt x 390.45876pt>
 File: Figures/watchVideo.PNG Graphic file (type png)
 <use Figures/watchVideo.PNG>
 Package pdftex.def Info: Figures/watchVideo.PNG  used on input line 64.
 (pdftex.def)             Requested size: 238.01991pt x 178.91612pt.
-<Figures/overview.PNG, id=510, 201.25188pt x 333.245pt>
+<Figures/overview.PNG, id=827, 201.25188pt x 333.245pt>
 File: Figures/overview.PNG Graphic file (type png)
 <use Figures/overview.PNG>
 Package pdftex.def Info: Figures/overview.PNG  used on input line 75.
 (pdftex.def)             Requested size: 238.01991pt x 394.1257pt.
-<Figures/Chapter.PNG, id=511, 201.75375pt x 334.75063pt>
+<Figures/Chapter.PNG, id=828, 201.75375pt x 334.75063pt>
 File: Figures/Chapter.PNG Graphic file (type png)
 <use Figures/Chapter.PNG>
 Package pdftex.def Info: Figures/Chapter.PNG  used on input line 81.
 (pdftex.def)             Requested size: 238.01991pt x 394.92569pt.
  [25 <./Figures/login.PNG> <./Figures/home.PNG> <./Figures/explorer.PNG> <./Figures/watchVideo.PNG>]
-<Figures/AuthorDetails.PNG, id=520, 253.94875pt x 316.68312pt>
+<Figures/AuthorDetails.PNG, id=837, 253.94875pt x 316.68312pt>
 File: Figures/AuthorDetails.PNG Graphic file (type png)
 <use Figures/AuthorDetails.PNG>
 Package pdftex.def Info: Figures/AuthorDetails.PNG  used on input line 91.
 (pdftex.def)             Requested size: 238.01991pt x 296.8317pt.
-<Figures/comment.PNG, id=521, 206.27063pt x 334.24875pt>
+<Figures/comment.PNG, id=838, 206.27063pt x 334.24875pt>
 File: Figures/comment.PNG Graphic file (type png)
 <use Figures/comment.PNG>
 Package pdftex.def Info: Figures/comment.PNG  used on input line 97.
 (pdftex.def)             Requested size: 238.01991pt x 385.70403pt.
  [26 <./Figures/overview.PNG> <./Figures/Chapter.PNG>]
-<Figures/architecturePhysique.png, id=528, 241.8636pt x 142.3719pt>
+<Figures/architecturePhysique.png, id=845, 241.8636pt x 142.3719pt>
 File: Figures/architecturePhysique.png Graphic file (type png)
 <use Figures/architecturePhysique.png>
 Package pdftex.def Info: Figures/architecturePhysique.png  used on input line 116.
 (pdftex.def)             Requested size: 426.79134pt x 251.24657pt.
  [27 <./Figures/AuthorDetails.PNG> <./Figures/comment.PNG>]
-<Figures/architectureLogique.png, id=535, 527.0892pt x 752.8125pt>
+<Figures/architectureLogique.png, id=853, 527.0892pt x 752.8125pt>
 File: Figures/architectureLogique.png Graphic file (type png)
 <use Figures/architectureLogique.png>
 Package pdftex.def Info: Figures/architectureLogique.png  used on input line 141.
 (pdftex.def)             Requested size: 256.0748pt x 365.7454pt.
  [28 <./Figures/architecturePhysique.png>] [29 <./Figures/architectureLogique.png>]
-<Figures/orda.png, id=546, 768.8725pt x 568.1225pt>
+<Figures/orda.png, id=864, 768.8725pt x 568.1225pt>
 File: Figures/orda.png Graphic file (type png)
 <use Figures/orda.png>
 Package pdftex.def Info: Figures/orda.png  used on input line 163.
 (pdftex.def)             Requested size: 426.79134pt x 315.36372pt.
-<Figures/architectureTechnique.png, id=547, 527.0892pt x 752.8125pt>
+<Figures/architectureTechnique.png, id=865, 527.0892pt x 752.8125pt>
 File: Figures/architectureTechnique.png Graphic file (type png)
 <use Figures/architectureTechnique.png>
 Package pdftex.def Info: Figures/architectureTechnique.png  used on input line 173.
 (pdftex.def)             Requested size: 284.52756pt x 406.38634pt.
- [30 <./Figures/orda.png>]) (Endmatter/Bibliography.tex [31 <./Figures/architectureTechnique.png>]) [32
+ [30 <./Figures/orda.png>]
+<Figures/diagramme de classe.PNG, id=871, 487.8225pt x 268.50313pt>
+File: Figures/diagramme de classe.PNG Graphic file (type png)
+<use Figures/diagramme de classe.PNG>
+Package pdftex.def Info: Figures/diagramme de classe.PNG  used on input line 188.
+(pdftex.def)             Requested size: 540.60236pt x 297.55853pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 188--189
+ [][] 
+ []
+
+[31 <./Figures/architectureTechnique.png>]
+<Figures/diagrammeDeSequenceAuthentification.png, id=877, 602.25pt x 433.62pt>
+File: Figures/diagrammeDeSequenceAuthentification.png Graphic file (type png)
+<use Figures/diagrammeDeSequenceAuthentification.png>
+Package pdftex.def Info: Figures/diagrammeDeSequenceAuthentification.png  used on input line 205.
+(pdftex.def)             Requested size: 540.60236pt x 389.26854pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 205--206
+ [][] 
+ []
+
+[32 <./Figures/diagramme de classe.PNG>]
+<Figures/diagrammeDeSequenceCreerCourse.PNG, id=883, 275.0275pt x 380.42125pt>
+File: Figures/diagrammeDeSequenceCreerCourse.PNG Graphic file (type png)
+<use Figures/diagrammeDeSequenceCreerCourse.PNG>
+Package pdftex.def Info: Figures/diagrammeDeSequenceCreerCourse.PNG  used on input line 215.
+(pdftex.def)             Requested size: 426.79134pt x 590.39563pt.
+ [33 <./Figures/diagrammeDeSequenceAuthentification.png>]
+<Figures/diagrammeDeSequenceCommencerCours.PNG, id=890, 532.99126pt x 432.61626pt>
+File: Figures/diagrammeDeSequenceCommencerCours.PNG Graphic file (type png)
+<use Figures/diagrammeDeSequenceCommencerCours.PNG>
+Package pdftex.def Info: Figures/diagrammeDeSequenceCommencerCours.PNG  used on input line 225.
+(pdftex.def)             Requested size: 540.60236pt x 438.83351pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 225--226
+ [][] 
+ []
+
+[34 <./Figures/diagrammeDeSequenceCreerCourse.PNG>]
+<Figures/diagrammeDeSequenceAddAuthor.PNG, id=896, 542.025pt x 445.16313pt>
+File: Figures/diagrammeDeSequenceAddAuthor.PNG Graphic file (type png)
+<use Figures/diagrammeDeSequenceAddAuthor.PNG>
+Package pdftex.def Info: Figures/diagrammeDeSequenceAddAuthor.PNG  used on input line 235.
+(pdftex.def)             Requested size: 540.60236pt x 444.01408pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 235--236
+ [][] 
+ []
+
+[35 <./Figures/diagrammeDeSequenceCommencerCours.PNG>] [36 <./Figures/diagrammeDeSequenceAddAuthor.PNG>]) (Chapitres/Chapitre4.tex [37]
+Chapitre 4.
+[38
+
+]
+<Logos/UML_logo.png, id=915, 1204.5pt x 876.27374pt>
+File: Logos/UML_logo.png Graphic file (type png)
+<use Logos/UML_logo.png>
+Package pdftex.def Info: Logos/UML_logo.png  used on input line 18.
+(pdftex.def)             Requested size: 180.6672pt x 131.43538pt.
+<Logos/html.png, id=917, 225.84375pt x 225.84375pt>
+File: Logos/html.png Graphic file (type png)
+<use Logos/html.png>
+Package pdftex.def Info: Logos/html.png  used on input line 33.
+(pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
+<Logos/css.png, id=918, 189.70876pt x 268.00125pt>
+File: Logos/css.png Graphic file (type png)
+<use Logos/css.png>
+Package pdftex.def Info: Logos/css.png  used on input line 47.
+(pdftex.def)             Requested size: 56.91306pt x 80.40099pt.
+ [39 <./Logos/UML_logo.png> <./Logos/html.png>]
+<Logos/Typescript.png, id=927, 1204.5pt x 1204.5pt>
+File: Logos/Typescript.png Graphic file (type png)
+<use Logos/Typescript.png>
+Package pdftex.def Info: Logos/Typescript.png  used on input line 57.
+(pdftex.def)             Requested size: 60.22852pt x 60.22852pt.
+File: Logos/Logo-4D.jpg Graphic file (type jpg)
+<use Logos/Logo-4D.jpg>
+Package pdftex.def Info: Logos/Logo-4D.jpg  used on input line 73.
+(pdftex.def)             Requested size: 97.96611pt x 137.31316pt.
+ [40 <./Logos/css.png> <./Logos/Typescript.png>]
+<Logos/react.png, id=936, 513.92pt x 513.92pt>
+File: Logos/react.png Graphic file (type png)
+<use Logos/react.png>
+Package pdftex.def Info: Logos/react.png  used on input line 90.
+(pdftex.def)             Requested size: 102.78217pt x 102.78217pt.
+<Logos/tailwind.png, id=937, 216.05719pt x 131.74219pt>
+File: Logos/tailwind.png Graphic file (type png)
+<use Logos/tailwind.png>
+Package pdftex.def Info: Logos/tailwind.png  used on input line 103.
+(pdftex.def)             Requested size: 108.02832pt x 65.87093pt.
+ [41 <./Logos/react.png>]
+<Logos/axios.png, id=943, 267.24844pt x 74.52844pt>
+File: Logos/axios.png Graphic file (type png)
+<use Logos/axios.png>
+Package pdftex.def Info: Logos/axios.png  used on input line 113.
+(pdftex.def)             Requested size: 133.62389pt x 37.26411pt.
+<Logos/VS.jpg, id=944, 225.84375pt x 225.84375pt>
+File: Logos/VS.jpg Graphic file (type jpg)
+<use Logos/VS.jpg>
+Package pdftex.def Info: Logos/VS.jpg  used on input line 131.
+(pdftex.def)             Requested size: 56.46078pt x 56.46078pt.
+ [42 <./Logos/tailwind.png> <./Logos/axios.png>]
+<Logos/4dClient.PNG, id=952, 190.21063pt x 183.68625pt>
+File: Logos/4dClient.PNG Graphic file (type png)
+<use Logos/4dClient.PNG>
+Package pdftex.def Info: Logos/4dClient.PNG  used on input line 144.
+(pdftex.def)             Requested size: 95.10507pt x 91.84288pt.
+<Logos/4dServeyr.PNG, id=953, 77.28876pt x 65.24374pt>
+File: Logos/4dServeyr.PNG Graphic file (type png)
+<use Logos/4dServeyr.PNG>
+Package pdftex.def Info: Logos/4dServeyr.PNG  used on input line 156.
+(pdftex.def)             Requested size: 115.93283pt x 97.86536pt.
+ [43 <./Logos/VS.jpg> <./Logos/4dClient.PNG>]
+<Logos/postman.png, id=960, 194.97844pt x 165.61874pt>
+File: Logos/postman.png Graphic file (type png)
+<use Logos/postman.png>
+Package pdftex.def Info: Logos/postman.png  used on input line 171.
+(pdftex.def)             Requested size: 97.48897pt x 82.80916pt.
+<Logos/gitlab.jpg, id=962, 903.375pt x 903.375pt>
+File: Logos/gitlab.jpg Graphic file (type jpg)
+<use Logos/gitlab.jpg>
+Package pdftex.def Info: Logos/gitlab.jpg  used on input line 181.
+(pdftex.def)             Requested size: 90.34279pt x 90.34279pt.
+ [44 <./Logos/4dServeyr.PNG> <./Logos/postman.png>]
+<Logos/git.png, id=971, 272.51813pt x 137.01187pt>
+File: Logos/git.png Graphic file (type png)
+<use Logos/git.png>
+Package pdftex.def Info: Logos/git.png  used on input line 195.
+(pdftex.def)             Requested size: 136.25873pt x 68.50577pt.
+<Logos/starUml.png, id=972, 230.8625pt x 219.82124pt>
+File: Logos/starUml.png Graphic file (type png)
+<use Logos/starUml.png>
+Package pdftex.def Info: Logos/starUml.png  used on input line 207.
+(pdftex.def)             Requested size: 92.34335pt x 87.92693pt.
+ [45 <./Logos/gitlab.jpg> <./Logos/git.png> <./Logos/starUml.png>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 223.
+ (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+<Figures/session.png, id=982, 483.30562pt x 332.74312pt>
+File: Figures/session.png Graphic file (type png)
+<use Figures/session.png>
+Package pdftex.def Info: Figures/session.png  used on input line 242.
+(pdftex.def)             Requested size: 540.60236pt x 372.22801pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 242--243
+ [][] 
+ []
+
+[46]
+<Figures/privilege.png, id=990, 722.7pt x 406.51875pt>
+File: Figures/privilege.png Graphic file (type png)
+<use Figures/privilege.png>
+Package pdftex.def Info: Figures/privilege.png  used on input line 259.
+(pdftex.def)             Requested size: 540.60236pt x 304.08812pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 259--260
+ [][] 
+ []
+
+[47 <./Figures/session.png>]
+<Figures/authntification.png, id=996, 917.67844pt x 650.43pt>
+File: Figures/authntification.png Graphic file (type png)
+<use Figures/authntification.png>
+Package pdftex.def Info: Figures/authntification.png  used on input line 274.
+(pdftex.def)             Requested size: 540.60236pt x 383.18466pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 274--275
+ [][] 
+ []
+
+[48 <./Figures/privilege.png>]
+<Figures/formations.png, id=1002, 908.64468pt x 651.93562pt>
+File: Figures/formations.png Graphic file (type png)
+<use Figures/formations.png>
+Package pdftex.def Info: Figures/formations.png  used on input line 289.
+(pdftex.def)             Requested size: 540.60236pt x 387.87169pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 289--290
+ [][] 
+ []
+
+[49 <./Figures/authntification.png>]
+<Figures/formation.png, id=1008, 917.67844pt x 654.19406pt>
+File: Figures/formation.png Graphic file (type png)
+<use Figures/formation.png>
+Package pdftex.def Info: Figures/formation.png  used on input line 299.
+(pdftex.def)             Requested size: 540.60236pt x 385.40216pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 299--300
+ [][] 
+ []
+
+[50 <./Figures/formations.png>]
+<Figures/video.png, id=1014, 913.16156pt x 654.19406pt>
+File: Figures/video.png Graphic file (type png)
+<use Figures/video.png>
+Package pdftex.def Info: Figures/video.png  used on input line 309.
+(pdftex.def)             Requested size: 540.60236pt x 387.29878pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 309--310
+ [][] 
+ []
+
+[51 <./Figures/formation.png>]
+<Figures/authors.png, id=1021, 916.1728pt x 655.69969pt>
+File: Figures/authors.png Graphic file (type png)
+<use Figures/authors.png>
+Package pdftex.def Info: Figures/authors.png  used on input line 319.
+(pdftex.def)             Requested size: 540.60236pt x 386.9195pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 319--320
+ [][] 
+ []
+
+[52 <./Figures/video.png>]
+<Figures/historique.png, id=1027, 921.4425pt x 644.4075pt>
+File: Figures/historique.png Graphic file (type png)
+<use Figures/historique.png>
+Package pdftex.def Info: Figures/historique.png  used on input line 329.
+(pdftex.def)             Requested size: 540.60236pt x 378.0634pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 329--330
+ [][] 
+ []
+
+[53 <./Figures/authors.png>]
+<Figures/favoris.png, id=1033, 920.68968pt x 655.69969pt>
+File: Figures/favoris.png Graphic file (type png)
+<use Figures/favoris.png>
+Package pdftex.def Info: Figures/favoris.png  used on input line 339.
+(pdftex.def)             Requested size: 540.60236pt x 385.02852pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 339--340
+ [][] 
+ []
+
+[54 <./Figures/historique.png>]
+<Figures/profil.png, id=1039, 983.17313pt x 461.47406pt>
+File: Figures/profil.png Graphic file (type png)
+<use Figures/profil.png>
+Package pdftex.def Info: Figures/profil.png  used on input line 348.
+(pdftex.def)             Requested size: 540.60236pt x 253.75517pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 348--349
+ [][] 
+ []
+
+[55 <./Figures/favoris.png>]
+<Figures/detailsAuthor.png, id=1045, 913.16156pt x 649.67719pt>
+File: Figures/detailsAuthor.png Graphic file (type png)
+<use Figures/detailsAuthor.png>
+Package pdftex.def Info: Figures/detailsAuthor.png  used on input line 359.
+(pdftex.def)             Requested size: 540.60236pt x 384.62468pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 359--360
+ [][] 
+ []
+
+[56 <./Figures/profil.png>]
+<Figures/dashboard.png, id=1050, 899.61093pt x 651.93562pt>
+File: Figures/dashboard.png Graphic file (type png)
+<use Figures/dashboard.png>
+Package pdftex.def Info: Figures/dashboard.png  used on input line 373.
+(pdftex.def)             Requested size: 540.60236pt x 391.78114pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 373--374
+ [][] 
+ []
+
+[57 <./Figures/detailsAuthor.png>]
+<Figures/addCourse.png, id=1057, 913.91437pt x 653.44125pt>
+File: Figures/addCourse.png Graphic file (type png)
+<use Figures/addCourse.png>
+Package pdftex.def Info: Figures/addCourse.png  used on input line 383.
+(pdftex.def)             Requested size: 540.60236pt x 386.53403pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 383--384
+ [][] 
+ []
+
+[58 <./Figures/dashboard.png>]
+<Figures/addAuthor.png, id=1063, 913.16156pt x 636.87938pt>
+File: Figures/addAuthor.png Graphic file (type png)
+<use Figures/addAuthor.png>
+Package pdftex.def Info: Figures/addAuthor.png  used on input line 393.
+(pdftex.def)             Requested size: 540.60236pt x 377.04807pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 393--394
+ [][] 
+ []
+
+[59 <./Figures/addCourse.png>]
+<Figures/addStudent.png, id=1069, 913.91437pt x 638.385pt>
+File: Figures/addStudent.png Graphic file (type png)
+<use Figures/addStudent.png>
+Package pdftex.def Info: Figures/addStudent.png  used on input line 403.
+(pdftex.def)             Requested size: 540.60236pt x 377.62772pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 403--404
+ [][] 
+ []
+
+[60 <./Figures/addAuthor.png>] [61 <./Figures/addStudent.png>]) (Endmatter/Conclusion.tex [62]) (Endmatter/Bibliography.tex [63
+
+]
+Overfull \hbox (103.31511pt too wide) in paragraph at lines 18--20
+[]\T1/lmr/m/it/12 TypeScript pour les Pro-gram-meurs Ja-vaS-cript\T1/lmr/m/n/12 , [][]\T1/lmr/bx/sc/12 https://www.typescriptlang.org/fr/docs/handbook/typescript-
+ []
+
+) [64
 
 ] (main.aux (Frontmatter/Page_de_Garde_EN.aux))
  ***********
@@ -1700,6 +2058,7 @@ l3backend-pdftex.def    2024-01-04 L3 backend support: PDF output (pdfTeX)
     soul.sty    2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
 soul-ori.sty    2023-06-14 v3.1 letterspacing/underlining (mf)
 etexcmds.sty    2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+enumitem.sty    2019/06/20 v3.9 Customized lists
 geometry.sty    2020/01/02 v5.9 Page Geometry
   ifvtex.sty    2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 geometry.cfg
@@ -1823,6 +2182,44 @@ Figures/architecturePhysique.png
 Figures/architectureLogique.png
 Figures/orda.png
 Figures/architectureTechnique.png
+Figures/diagramme de classe.PNG
+Figures/diagrammeDeSequenceAuthentification.png
+Figures/diagrammeDeSequenceCreerCourse.PNG
+Figures/diagrammeDeSequenceCommencerCours.PNG
+Figures/diagrammeDeSequenceAddAuthor.PNG
+Chapitres/Chapitre4.tex
+Logos/UML_logo.png
+Logos/html.png
+Logos/css.png
+Logos/Typescript.png
+Logos/Logo-4D.jpg
+Logos/react.png
+Logos/tailwind.png
+Logos/axios.png
+Logos/VS.jpg
+Logos/4dClient.PNG
+Logos/4dServeyr.PNG
+Logos/postman.png
+Logos/gitlab.jpg
+Logos/git.png
+Logos/starUml.png
+  t1lmtt.fd    2015/05/01 v1.6.1 Font defs for Latin Modern
+Figures/session.png
+Figures/privilege.png
+Figures/authntification.png
+Figures/formations.png
+Figures/formation.png
+Figures/video.png
+Figures/authors.png
+Figures/historique.png
+Figures/favoris.png
+Figures/profil.png
+Figures/detailsAuthor.png
+Figures/dashboard.png
+Figures/addCourse.png
+Figures/addAuthor.png
+Figures/addStudent.png
+Endmatter/Conclusion.tex
 Endmatter/Bibliography.tex
  ***********
 
@@ -1833,24 +2230,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A207D6C2B13A3C12C4348560BC646362;6576.
+(rerunfilecheck)             Checksum: CD1718C9E3728B19438ABB703BB00EB3;14771.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 41 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 41304 strings out of 474485
- 768818 string characters out of 5745151
- 1952542 words of memory out of 5000000
- 62603 multiletter control sequences out of 15000+600000
- 617722 words of font info for 74 fonts, out of 8000000 for 9000
+ 42192 strings out of 474485
+ 786805 string characters out of 5745151
+ 1953542 words of memory out of 5000000
+ 63348 multiletter control sequences out of 15000+600000
+ 628019 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,13n,96p,2397b,2861s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14bf.pfb>
-Output written on main.pdf (45 pages, 5123996 bytes).
+ 100i,13n,96p,2397b,3093s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14.pfb><C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14bf.pfb>
+Output written on main.pdf (80 pages, 8410137 bytes).
 PDF statistics:
- 647 PDF objects out of 1000 (max. 8388607)
- 163 named destinations out of 1000 (max. 500000)
- 488 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1216 PDF objects out of 1440 (max. 8388607)
+ 285 named destinations out of 1000 (max. 500000)
+ 1034 words of extra memory for PDF output out of 10000 (max. 10000000)
 

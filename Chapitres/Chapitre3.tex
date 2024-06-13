@@ -177,4 +177,69 @@ Grâce à 4D, les développeurs peuvent se concentrer sur l’essentiel et crée
 Le connecteur s’occupe de la récolte des données saisies par l’utilisateur dans le navigateur, ces données sont envoyées au serveur 4D via des requêtes HTTP. La couche web
 récupère les données reçues et les transmet à la couche métier qui effectue les traitements
 nécessaires. La couche 4D Database s’occupe de la sérialisation et la dé-sérialisation.
+\section{Conception Détaillée}
+
+Le diagramme de classe est l’un des diagrammes statiques d’UML. Il permet de décrire
+la structure d’un système informatique tout en montrant les différentes classes, leurs
+attributs, leurs méthodes ainsi que les relations entre eux.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=19cm]{Figures/diagramme de classe.PNG}
+    \caption{Diagramme de Classe}
+\end{figure}
+
+\subsection{Diagramme de séquence}
+
+Un diagramme de séquence est un diagramme UML (Unified Modeling Language) qui représente la séquence de messages entre les objets au cours d'une interaction.
+
+\subsubsection{Diagramme de séquence de l’authentification}
+
+L’authentification est l’étape primordiale pour toutes les fonctionnalités. L'interaction débute par l’utilisateur qui saisit ses informations d'authentification ( username et mot de passe) et les envoie au système.
+Dans le premier cas, le système transmet ces informations à la base de données pour vérification. Si les informations sont correctes, le système redirige l'utilisateur vers la page d'accueil.
+Dans le deuxième cas, si les informations d'authentification sont incorrectes, la base de données envoie une réponse négative au système. Le système informe alors l'utilisateur que les informations saisies sont incorrectes, et il est redirigé vers la page d'authentification pour qu'il puisse réessayer.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=19cm]{Figures/diagrammeDeSequenceAuthentification.png}
+    \caption{Diagramme de séquence de l'authentification}
+\end{figure}
+
+\subsubsection{Diagramme de séquence d’ajouter une formation}
+
+Ce diagramme montre comment un administrateur ajoute une formation. L'administrateur clique sur "ajouter formation", un formulaire s'affiche, et les informations sont saisies. Le processus se poursuit avec l'ajout de chapitres et de vidéos, l'importation des vidéos et l'envoi des données pour la création de la formation. Une notification est affichée pour indiquer si la création a réussi ou échoué.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{Figures/diagrammeDeSequenceCreerCourse.PNG}
+    \caption{Diagramme de séquence d'ajouter une formation}
+\end{figure}
+
+\subsubsection{Diagramme de séquence de commencer une formation}
+
+Ce diagramme illustre le processus d'un apprenant qui commence un cours. L'apprenant clique sur "commencer un cours", une requête est envoyée pour récupérer les chapitres et les vidéos du cours, et les vidéos sont ensuite lues.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=19cm]{Figures/diagrammeDeSequenceCommencerCours.PNG}
+    \caption{Diagramme de séquence de commencer une formation}
+\end{figure}
+
+\subsubsection{Diagramme de séquence d'ajouter un formateur}
+
+Le diagramme de séquence montre le processus par lequel un administrateur ajoute un formateur. L'administrateur clique sur "ajouter formateur" et le système affiche un formulaire à remplir. Après la soumission du formulaire, le système envoie une requête à la base de données pour créer le formateur. Si la création réussit, le système notifie l'administrateur que le formateur a été ajouté avec succès. En cas d'échec, une notification d'échec est envoyée.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=19cm]{Figures/diagrammeDeSequenceAddAuthor.PNG}
+    \caption{Diagramme de séquence d'ajouter formateur}
+\end{figure}
+
+\newpage
+\subsection*{Conclusion}
+
+Au cours de ce chapitre, nous avons présenté tout d'abord le prototype de notre application, après nous avons vu les architectures utilisées et des diagrammes
+de classes et de séquences pour mieux comprendre notre projet. Nous pouvons alors passer à l’implémentations et à la validation
+de notre solution.
 

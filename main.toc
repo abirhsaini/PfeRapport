@@ -4,16 +4,16 @@
 \contentsline {chapter}{Résumé}{iii}{chapter*.3}%
 \contentsline {chapter}{Abstract}{iv}{chapter*.4}%
 \contentsline {chapter}{Arabic Abstract}{v}{chapter*.5}%
-\contentsline {chapter}{Table des figures}{vii}{chapter*.6}%
-\contentsline {chapter}{Liste des tableaux}{viii}{chapter*.7}%
-\contentsline {chapter}{Listings}{ix}{chapter*.8}%
-\contentsline {chapter}{Table des matières}{xi}{chapter*.9}%
+\contentsline {chapter}{Table des figures}{viii}{chapter*.6}%
+\contentsline {chapter}{Liste des tableaux}{ix}{chapter*.7}%
+\contentsline {chapter}{Listings}{x}{chapter*.8}%
+\contentsline {chapter}{Table des matières}{xiv}{chapter*.9}%
 \contentsline {chapter}{Introdcution}{1}{chapter*.10}%
 \contentsline {chapter}{\numberline {1}Contexte général}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Pésentation de l’organisme d’accueil}{3}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Histoire de 4D}{3}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}Le Langage 4D}{5}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}La structure du groupe 4D}{7}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.3}La structure du groupe 4D}{6}{subsection.1.1.3}%
 \contentsline {subsection}{\numberline {1.1.4}Les domaines Métiers et les clients 4D}{8}{subsection.1.1.4}%
 \contentsline {section}{\numberline {1.2}Contexte générale du projet:}{9}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Cadre du projet:}{9}{subsection.1.2.1}%
@@ -38,4 +38,51 @@
 \contentsline {subsection}{\numberline {3.2.1}Architecture physique}{27}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Architecture logique}{28}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}architecture techniques}{31}{subsection.3.2.3}%
-\contentsline {chapter}{Bibliography}{32}{appendix*.38}%
+\contentsline {section}{\numberline {3.3}Conception Détaillée}{31}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Diagramme de séquence}{32}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Diagramme de séquence de l’authentification}{32}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Diagramme de séquence d’ajouter une formation}{33}{subsubsection.3.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.3.1.3}Diagramme de séquence de commencer une formation}{34}{subsubsection.3.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.3.1.4}Diagramme de séquence d'ajouter un formateur}{35}{subsubsection.3.3.1.4}%
+\contentsline {chapter}{\numberline {4}Réalisation}{38}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Langages et technologies de développement utilisés}{39}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Modélisation : Langage UML}{39}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Couche présentation}{39}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}HTML}{39}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}CSS}{40}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}TypeScript}{40}{subsubsection.4.1.2.3}%
+\contentsline {subsection}{\numberline {4.1.3}Couche traitement : 4D}{41}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Librairies et frameworks utilisés}{41}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Couche présentation}{41}{subsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}React}{41}{subsubsection.4.2.1.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.2}Tailwind}{42}{subsubsection.4.2.1.2}%
+\contentsline {subsubsection}{\numberline {4.2.1.3}Axios}{42}{subsubsection.4.2.1.3}%
+\contentsline {section}{\numberline {4.3}Environnements et outils de développement utilisés}{43}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Visual Studio Code }{43}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}4D Client}{43}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}4D Serveur}{44}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Postman}{44}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}GitLab}{45}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Git}{45}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}StarUML}{45}{subsection.4.3.7}%
+\contentsline {section}{\numberline {4.4}Sécurité}{46}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Implémentation des sessions}{46}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Roles et privilèges }{47}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Travail Réalisé}{48}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Authentification}{48}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Espace Apprenant }{49}{subsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.1}Liste des formations}{49}{subsubsection.4.5.2.1}%
+\contentsline {subsubsection}{\numberline {4.5.2.2}Détails de la formation}{50}{subsubsection.4.5.2.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.3}Regarder formation}{51}{subsubsection.4.5.2.3}%
+\contentsline {subsubsection}{\numberline {4.5.2.4}Liste des formateurs}{52}{subsubsection.4.5.2.4}%
+\contentsline {subsubsection}{\numberline {4.5.2.5}Historique}{53}{subsubsection.4.5.2.5}%
+\contentsline {subsubsection}{\numberline {4.5.2.6}Favoris}{54}{subsubsection.4.5.2.6}%
+\contentsline {subsubsection}{\numberline {4.5.2.7}Page de profil}{55}{subsubsection.4.5.2.7}%
+\contentsline {subsubsection}{\numberline {4.5.2.8}Page de profile d’un formateur}{56}{subsubsection.4.5.2.8}%
+\contentsline {subsection}{\numberline {4.5.3}Espace Administrateur}{57}{subsection.4.5.3}%
+\contentsline {subsubsection}{\numberline {4.5.3.1} tableau de bord}{57}{subsubsection.4.5.3.1}%
+\contentsline {subsubsection}{\numberline {4.5.3.2}Liste des formations et ajout formation}{58}{subsubsection.4.5.3.2}%
+\contentsline {subsubsection}{\numberline {4.5.3.3}Liste des formateurs et ajout formateur }{59}{subsubsection.4.5.3.3}%
+\contentsline {subsubsection}{\numberline {4.5.3.4}Liste des apprenants et ajout apprenant}{60}{subsubsection.4.5.3.4}%
+\contentsline {chapter}{Conclusion}{63}{appendix*.73}%
+\contentsline {chapter}{Bibliography}{64}{appendix*.74}%

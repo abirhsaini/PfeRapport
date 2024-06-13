@@ -5,7 +5,7 @@
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Les années 90}}{4}{figure.caption.13}%
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Les années 2000}}{4}{figure.caption.14}%
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Anciennes versions de 4D}}{5}{figure.caption.15}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces les deux nouvelles versions de 4D}}{6}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces les deux nouvelles versions de 4D}}{7}{figure.caption.16}%
 \contentsline {figure}{\numberline {1.7}{\ignorespaces Le groupe 4D dans le monde}}{7}{figure.caption.17}%
 \contentsline {figure}{\numberline {1.8}{\ignorespaces Les points de présence des partenaires et des distributeurs de 4D}}{8}{figure.caption.18}%
 \contentsline {figure}{\numberline {1.9}{\ignorespaces La Direction Générale de 4D}}{8}{figure.caption.19}%
@@ -28,3 +28,39 @@
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Architecture logique de système.}}{29}{figure.caption.35}%
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Orda Data model classe.}}{30}{figure.caption.36}%
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Architecture technique de système.}}{31}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Diagramme de Classe}}{32}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Diagramme de séquence de l'authentification}}{33}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Diagramme de séquence d'ajouter une formation}}{34}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Diagramme de séquence de commencer une formation}}{35}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Diagramme de séquence d'ajouter formateur}}{36}{figure.caption.42}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Logo UML}}{39}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Logo HTML}}{39}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Logo CSS}}{40}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Logo TypeScript}}{40}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Logo 4D}}{41}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Logo React}}{41}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Logo Tailwind}}{42}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Logo Axios}}{42}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Logo Visual Studio Code }}{43}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Logo 4D client}}{43}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Logo 4D Serveur}}{44}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Logo Postman}}{44}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Logo GitLab}}{45}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Logo Git}}{45}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Logo StarUML}}{45}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Schéma des sessions extensibles}}{47}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Schéma des privilèges en 4D}}{48}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces La page d'authentification}}{49}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Liste des formations}}{50}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Détails d'une formation}}{51}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces regarder formation}}{52}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces la liste des formateurs}}{53}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Page d'historique}}{54}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Page de favoris}}{55}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Page de profil}}{56}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Page de profil d’un formateur}}{57}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Page de tableau de bord}}{58}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Page de Liste des formations + ajout formation}}{59}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Page de liste des formateurs et ajout formateur }}{60}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Page de liste des apprenants et ajout apprenant}}{61}{figure.caption.72}%
