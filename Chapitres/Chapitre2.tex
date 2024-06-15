@@ -2,11 +2,17 @@
 \chapter{Analyse et spécification des besoins}
 \label{chap:Analyse et spécification des besoins}
 
-\section*{Introduction}
+
 
 Dans ce chapitre, nous abordons l’étape d’analyse et spécification des besoins pour notre projet. Ainsi nous présentons en premier temps les acteurs ainsi que les exigences fonctionnelles et non-fonctionnelles du projet. Puis, nous utilisons les diagrammes de cas d’utilisations avec leurs descriptions textuelles pour décrire les scénarios possibles. Cela nous permettra de guider le développement du système de manière efficace et d’assurer sa conformité aux exigences.
 
 \pagebreak
+
+\section{Étude de l’existant}
+
+Reconnu depuis 30 ans comme un partenaire privilégié du monde de l'éducation, 4D accompagne les directeurs d'établissements, les enseignants, les chercheurs et les responsables administratifs dans la réussite de leurs parcours. L'entreprise offre deux types de formation : la formation sur mesure et la formation standard. La formation sur mesure est adaptée spécifiquement aux besoins individuels de l'apprenant, permettant une personnalisation maximale du contenu et des méthodes d'enseignement. En revanche, la formation standard est une offre prédéfinie par l'entreprise, accessible à tout apprenant intéressé. Ces formations peuvent être suivies en ligne, à travers des plateformes telles que Zoom ou Google Meet, ou en présentiel, selon les modalités fixées par l'entreprise.
+
+Avant la pandémie de COVID-19, la plupart des formations se déroulaient en mode présentiel. Cependant, avec la montée en puissance du travail à distance, les entreprises ont découvert qu'il était possible de tout faire en ligne. En conséquence, 4D a décidé de migrer vers les formations à distance. Cependant, l'utilisation des outils de visioconférences présente plusieurs limitations. La gestion des formations nécessite un grand effort manuel, et les formations ne sont pas regroupées dans un seul endroit où l'utilisateur peut consulter et choisir ce qui est adéquat pour ses besoins. la formation à travers ces outils n'est pas très productif pour l'apprenant. Il est donc nécessaire de trouver une solution plus efficace pour gérer et proposer les formations en ligne
 
 \section{Spécification des exigences}
 
@@ -62,15 +68,20 @@ susceptibles d'être porteur de données.
     \item[$\bullet$] \textbf{Gestion des Formations pour les Administrateurs:}
     \begin{itemize}
         \item  Ajouter une formation: Permettre aux administrateurs d'ajouter une nouvelle formation sur la plateforme.
+        \item  Modifier une formation: Permettre aux administrateurs de modifier une formation existante.
         \item  Supprimer une formation: Permettre aux administrateurs de supprimer une formation existante.
     \end{itemize}
-    \item[$\bullet$] \textbf{Gestion des Profils Administrateurs:}
+    \item[$\bullet$] \textbf{Gestion des Apprenants pour les Administrateurs:}
     \begin{itemize}
-        \item  Modifier son profil: Permettre aux administrateurs de modifier leurs informations personnelles sur leur profil.
+        \item  Ajouter un apprenant: Permettre aux administrateurs d'ajouter un nouveau apprenant sur la plateforme.
+        \item  Modifier un apprenant: Permettre aux administrateurs de modifier un apprenant existant.
+        \item  Supprimer un apprenant: Permettre aux administrateurs de supprimer un apprenant existant.
     \end{itemize}
-    \item[$\bullet$] \textbf{Gestion des Questions et Réponses:}
+    \item[$\bullet$] \textbf{Gestion des Formateurs pour les Administrateurs:}
     \begin{itemize}
-        \item  Répondre aux questions: Permettre aux administrateurs de répondre aux questions posées par les apprenants.
+        \item  Ajouter un formateur: Permettre aux administrateurs d'ajouter un nouveau un formateur sur la plateforme.
+        \item  Modifier un formateur: Permettre aux administrateurs de modifier un formateur existant.
+        \item  Supprimer un formateur: Permettre aux administrateurs de supprimer un formateur existant.
     \end{itemize}
     \item[$\bullet$] \textbf{Gestion des Statistiques:}
     \begin{itemize}
@@ -85,10 +96,11 @@ susceptibles d'être porteur de données.
 Ce sont les besoins qui permettent d’améliorer la qualité des services de la plateforme comme la convivialité et l’ergonomie des interfaces et l’amélioration du temps de réponse. Parmi ces besoins, on cite :
 
 \begin{itemize}
-    \item[$\bullet$] \textbf{La convivialité:} La future application doit être facile à utiliser. En effet, les interfaces utilisateur doivent être conviviales c’est-à-dire simples, ergonomiques et adaptées à l’utilisateur.
-    \item[$\bullet$] \textbf{L’évolutivité:} Toute architecture est exposée à des évolutions au niveau de la technologie d’implémentation. La solution doit avoir un grand niveau d’abstraction pour faciliter les nouvelles implémentations.
-    \item[$\bullet$] \textbf{Temps de réponse:} Le temps de réponse doit être le plus court possible.
-    \item[$\bullet$] \textbf{La disponibilité:} Lorsque n’importe quel utilisateur désire consulter la plateforme, elle doit être disponible.
+    \item[$\bullet$] \textbf{Convivialité:} La future application doit être facile à utiliser. En effet, les interfaces utilisateur doivent être conviviales c’est-à-dire simples, ergonomiques et adaptées à l’utilisateur.
+    \item[$\bullet$] \textbf{Scalabilité:} Toute architecture est exposée à des évolutions au niveau de la technologie d’implémentation. La solution doit avoir un grand niveau d’abstraction pour faciliter les nouvelles implémentations.
+    \item[$\bullet$] \textbf{Performance:} Le temps de réponse doit être le plus court possible.
+    \item[$\bullet$] \textbf{Disponibilité:} Lorsque n’importe quel utilisateur désire consulter la plateforme, elle doit être disponible.
+    \item[$\bullet$] \textbf{Sécurité} la plateforme doit protéger les données personnelles des utilisateurs, garantir l'intégrité des cours et du contenu.
 \end{itemize}
 
 \section{Identification de cas d’utilisation}
