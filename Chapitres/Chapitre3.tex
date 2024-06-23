@@ -3,8 +3,7 @@
 
 
 
-Dans cette partie, nous allons commencer d’abord par une vue architecturale de
-l’application, puis nous allons détailler la conception en présentant les
+Dans cette partie, nous allons commencer d’abord par le prototype de notre application. Ensuite, nous allons se concentrer sur la  vue architecturale du projet.Finalement, nous allons détailler la conception en présentant les
 diagrammes de séquence et les diagrammes de classe. Ces diagrammes permettent de visualiser les différentes étapes du processus et la structure du système.
 
 \pagebreak
@@ -26,10 +25,10 @@ Le prototypage est une étape importante dans le processus de développement de 
 Figma est une plateforme collaborative pour éditer des graphiques vectoriels et faire du prototypage. Elle permet de concevoir des design systems pour faciliter la création de sites web et d’applications mobiles. C’est une solution à destination des UI et UX designers et des développeurs. L’interface propose de nombreuses fonctionnalités :
 
 \begin{itemize}
-    \item[$\bullet$] \textbf{Design} :avec des outils de conception pour le web, des fonctions de mise en page automatique, des plugins pour réduire les tâches répétitives.
-    \item[$\bullet$] \textbf{Prototypage} : pour tester les concepts très tôt en cours de design.
-    \item[$\bullet$] \textbf{Design system} : pour concevoir des design cohérents avec des bibliothèques mises à jour en permanence.
-    \item[$\bullet$] \textbf{Collaboratives} : pour travailler à plusieurs et en même temps sur un projet, revenir sur une version antérieure si nécessaire ou encore afficher le travail d’un seul collaborateur par exemple.
+    \item[$\bullet$] \textbf{Design:} avec des outils de conception pour le web, des fonctions de mise en page automatique, des plugins pour réduire les tâches répétitives.
+    \item[$\bullet$] \textbf{Prototypage:} pour tester les concepts très tôt en cours de design.
+    \item[$\bullet$] \textbf{Design system:} pour concevoir des design cohérents avec des bibliothèques mises à jour en permanence.
+    \item[$\bullet$] \textbf{Collaboration:} pour travailler à plusieurs et en même temps sur un projet, revenir sur une version antérieure si nécessaire ou encore afficher le travail d’un seul collaborateur par exemple.
 \end{itemize}
 
 \subsection{Interface}
@@ -63,7 +62,7 @@ Figma est une plateforme collaborative pour éditer des graphiques vectoriels et
     \begin{minipage}{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Figures/watchVideo.PNG}
-        \caption{Figma: Page regarder une vidéo }
+        \caption{Figma: Page Suivre Formation }
         
     \end{minipage}
 \end{figure}
@@ -90,13 +89,13 @@ Figma est une plateforme collaborative pour éditer des graphiques vectoriels et
     \begin{minipage}{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Figures/AuthorDetails.PNG}
-        \caption{Figma: Page detail d'un formateur}
+        \caption{Figma: Page Détails d'un Formateur}
     \end{minipage}
     \hfill
     \begin{minipage}{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Figures/comment.PNG}
-        \caption{Figma: Page des ChapitresPage }
+        \caption{Figma: Page des Chapitres}
     \end{minipage}
     
 \end{figure}
@@ -108,13 +107,13 @@ Figma est une plateforme collaborative pour éditer des graphiques vectoriels et
     \begin{minipage}{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Figures/figmaDashoboard.PNG}
-        \caption{Figma: Page tableau de board}
+        \caption{Figma: Page Tableau De Board}
     \end{minipage}
     \hfill
     \begin{minipage}{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Figures/addCourseDashboard.png}
-        \caption{Figma: Page d'ajout de formation}
+        \caption{Figma: Page D'ajout De Formation}
     \end{minipage}
     
 \end{figure}
@@ -143,16 +142,16 @@ Cette architecture se compose principalement des éléments suivants :
     \item[$\bullet$] \textbf{Serveur REST} : Un serveur web qui suit les principes de l'architecture REST et expose des ressources via des URI, permettant aux clients d'effectuer des opérations standardisées sur ces ressources pour accéder aux données et fonctionnalités du serveur.
     \item[$\bullet$] \textbf{Serveur 4D} : Ce serveur contient la couche métier de notre application.
     \item[$\bullet$] \textbf{Serveur de base de données} : Ce serveur se charge de la gestion du stockage des données.
-    \item[$\bullet$] \textbf{Couche réseau} : Le protocole TLS sécurise les connexions client/serveur en cryptant les données échangées, permettant ainsi de renforcer la sécurité de votre application 4D Server.
+    \item[$\bullet$] \textbf{Couche réseau} : Le protocole TLS sécurise les connexions client/serveur en cryptant les données échangées, permettant ainsi de renforcer la sécurité de notre application 4D Server.
 \end{itemize}
 
 \subsection{Architecture logique}
 
-Pour avoir une architecture robuste, modulable et évolutive, il faut utiliser le principe
-de « Couche », et donc séparer au maximum les différents types de traitement de l’application. L’environnement de travail n’est pas dépendant à une technologie spécifique.
-Pour cette raison, nous avons utilisé plusieurs technologies afin de développer une solution aboutie, performante, multicouches et qui s’intègre parfaitement. La figure suivante
-illustre l’architecture logicielle proposée pour le système développé, en présentant trois
-couches : couche présentation (web), couche métier qui s’occupe des différents traitements
+Dans notre architecture, nous avons utilisé le principe
+de « Couche » pour séparer au maximum les différents types de traitement de l’application. L’environnement de travail n’est pas dépendant à une technologie spécifique.
+Pour cette raison, nous avons utilisé plusieurs technologies afin de développer une solution multicouches  qui s’intègre parfaitement. La figure suivante
+illustre l’architecture logicielle proposée pour le système développé, en présentant quatre
+couches: couche présentation, couche controlleur, couche métier qui s’occupe des différents traitements
 et couche accès aux données.
 
 
@@ -164,12 +163,12 @@ et couche accès aux données.
 
 Au niveau 4D Server, notre développement s’est concentré principalement sur la couche
 métier. En effet, 4D Server offre un environnement de développement qui simplifie considérablement la création d’applications. Les autres couches, telles que la couche d’accès
-aux données et la couche de présentation, sont déjà implémentées et intégrées dans 4D.Ainsi, les développeurs peuvent se concentrer sur la logique métier de leurs applications
+aux données et la couche controlleur, sont déjà implémentées et intégrées dans 4D.Ainsi, les développeurs peuvent se concentrer sur la logique métier de leurs applications
 sans avoir à se soucier des détails techniques des autres couches. Cette approche permet
 un développement rapide et efficace, tout en offrant des fonctionnalités avancées pour
 répondre aux besoins spécifiques des projets.
 
-Aussi, nous avons travaillé avec ORDA, est une technologie spécifique qui facilite
+Aussi, nous avons travaillé avec ORDA (Object Relational Data Access), qui est une technologie spécifique qui facilite
 l’accès à une base de données relationnelle en tant qu’objets. Elle permet de manipuler les
 données de la base de données à l’aide d’un langage de programmation orienté objet ou
 d’interfaces utilisateur spécifiques. ORDA simplifie l’interaction avec la base de données
@@ -181,24 +180,15 @@ ORDA nous permet de créer des fonctions de classe de haut niveau au-dessus du m
 \begin{figure}[H]
     \centering
     \includegraphics[width=15cm]{Figures/orda.png}
-    \caption{Orda Data model classe.}
+    \caption{Orda Data Model Class}
 \end{figure}
 
 Grâce à 4D, les développeurs peuvent se concentrer sur l’essentiel et créer des applications puissantes et performantes en toute simplicité.
 
-\subsection{architecture techniques}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=10cm]{Figures/architectureTechnique.png}
-    \caption{Architecture technique de système.}
-\end{figure}
-
-Le connecteur s’occupe de la récolte des données saisies par l’utilisateur dans le navigateur, ces données sont envoyées au serveur 4D via des requêtes HTTP. La couche web
-récupère les données reçues et les transmet à la couche métier qui effectue les traitements
-nécessaires. La couche 4D Database s’occupe de la sérialisation et la dé-sérialisation.
 \section{Conception Détaillée}
 
+\subsection{Diagramme de Classe}
 Le diagramme de classe est l’un des diagrammes statiques d’UML. Il permet de décrire
 la structure d’un système informatique tout en montrant les différentes classes, leurs
 attributs, leurs méthodes ainsi que les relations entre eux.
@@ -209,57 +199,27 @@ attributs, leurs méthodes ainsi que les relations entre eux.
     \caption{Diagramme de Classe}
 \end{figure}
 
-\subsection{Diagramme de séquence}
+\subsection{Diagramme de séquence détaillé}
 
-Un diagramme de séquence est un diagramme UML (Unified Modeling Language) qui représente la séquence de messages entre les objets au cours d'une interaction.
+\subsubsection*{Diagramme de séquence de l'authentification}
 
-\subsubsection{Diagramme de séquence de l’authentification}
-
-L’authentification est l’étape primordiale pour toutes les fonctionnalités. L'interaction débute par l’utilisateur qui saisit ses informations d'authentification ( username et mot de passe) et les envoie au système.
-Dans le premier cas, le système transmet ces informations à la base de données pour vérification. Si les informations sont correctes, le système redirige l'utilisateur vers la page d'accueil.
-Dans le deuxième cas, si les informations d'authentification sont incorrectes, la base de données envoie une réponse négative au système. Le système informe alors l'utilisateur que les informations saisies sont incorrectes, et il est redirigé vers la page d'authentification pour qu'il puisse réessayer.
-
+Dans ce diagramme, nous avons essayé de montrer de manière plus détaillée comment un utilisateur peut s'identifier sur notre plateforme.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=19cm]{Figures/diagrammeDeSequenceAuthentification.png}
-    \caption{Diagramme de séquence de l'authentification}
+    \includegraphics[width=19cm]{Figures/authdetaille.png}
+    \caption{Diagramme de séquence détaillé de l'authentification}
 \end{figure}
 
-\subsubsection{Diagramme de séquence d’ajouter une formation}
+\subsubsection*{Diagramme de séquence d’ajouter une formation}
 
-Ce diagramme montre comment un administrateur ajoute une formation. L'administrateur clique sur "ajouter formation", un formulaire s'affiche, et les informations sont saisies. Le processus se poursuit avec l'ajout de chapitres et de vidéos, l'importation des vidéos et l'envoi des données pour la création de la formation. Une notification est affichée pour indiquer si la création a réussi ou échoué.
+Ce diagramme montre comment le système ajoute une formation. D'abord, après avoir cliqué sur le bouton "Add Course", le système essaie d'abord d'enregistrer les informations de la formation. Ensuite, grâce à l'ID de la formation, on peut ajouter les chapitres liés à cette formation, ainsi que les vidéos. Tout cela se fait de manière transactionnelle pour s'assurer que le cours est ajouté correctement. 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=15cm]{Figures/diagrammeDeSequenceCreerCourse.PNG}
-    \caption{Diagramme de séquence d'ajouter une formation}
+    \includegraphics[width=19cm]{Figures/addcourseSequence.png}
+    \caption{Diagramme de séquence détaillé d’ajouter une formation}
 \end{figure}
-
-\subsubsection{Diagramme de séquence de commencer une formation}
-
-Ce diagramme illustre le processus d'un apprenant qui commence un cours. L'apprenant clique sur "commencer un cours", une requête est envoyée pour récupérer les chapitres et les vidéos du cours, et les vidéos sont ensuite lues.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=19cm]{Figures/diagrammeDeSequenceCommencerCours.PNG}
-    \caption{Diagramme de séquence de commencer une formation}
-\end{figure}
-
-\subsubsection{Diagramme de séquence d'ajouter un formateur}
-
-Le diagramme de séquence montre le processus par lequel un administrateur ajoute un formateur. L'administrateur clique sur "ajouter formateur" et le système affiche un formulaire à remplir. Après la soumission du formulaire, le système envoie une requête à la base de données pour créer le formateur. Si la création réussit, le système notifie l'administrateur que le formateur a été ajouté avec succès. En cas d'échec, une notification d'échec est envoyée.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=19cm]{Figures/diagrammeDeSequenceAddAuthor.PNG}
-    \caption{Diagramme de séquence d'ajouter formateur}
-\end{figure}
-
 \newpage
 \subsection*{Conclusion}
-
-Au cours de ce chapitre, nous avons présenté tout d'abord le prototype de notre application, après nous avons vu les architectures utilisées et des diagrammes
-de classes et de séquences pour mieux comprendre notre projet. Nous pouvons alors passer à l’implémentations et à la validation
-de notre solution.
-
+Au cours de ce chapitre, nous avons d'abord présenté le prototype de notre application. Ensuite, nous avons examiné les architectures utilisées ainsi que les diagrammes de classes et de séquences. Nous allons maintenant entamer la partie de l'implémentation et la validation de notre solution.

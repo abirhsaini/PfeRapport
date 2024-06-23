@@ -2,12 +2,9 @@
 \label{chap:Réalisation}
 
 
-L’implémentation est la phase la plus importante après celle de la conception. Le choix
-des outils de développement influence énormément sur le coût en temps de programmation, ainsi que sur la flexibilité du produit à réaliser. Cette phase consiste à transformer
-le modèle conceptuel établi précédemment en des composants logiciels formant notre système. Dans ce chapitre, nous allons présenter d’une façon succincte les différents outils
-dont on s’est servi tout au long de la réalisation de notre application.
+Dans ce chapitre, nous présentons l’implémentation de notre travail. Nous décrivons brièvement en premier temps les technologies utilisées, puis nous enchaînons sur les captures d’écran des différents fonctionnalités réalisées. Par la suite, nous passons à la partie de la validation des exigences.
 \pagebreak
-\section{Langages et technologies de développement utilisés}
+\section{Langages et technologies utilisés}
 
 
 \subsection{Modélisation : Langage UML}
@@ -63,7 +60,7 @@ TypeScript a une relation inhabituelle avec JavaScript. TypeScript offre toutes 
 
 JavaScript fournit des primitives, comme string et number, mais aucune vérification n’est faite pour s’assurer que les assignations que vous faites sont correctes. TypeScript le fait.
 
-Cela signifie que votre code JavaScript existant est également du code TypeScript. L’avantage principal de TypeScript est sa capacité à exposer les comportements imprévus dans votre code, diminuant les risques de bugs.\cite{Typescript}
+Cela signifie que le code JavaScript existant est également du code TypeScript. L’avantage principal de TypeScript est sa capacité à exposer les comportements imprévus dans le code, diminuant les risques de bugs.\cite{Typescript}
 
 \subsection{Couche traitement : 4D}
 
@@ -113,14 +110,7 @@ Tailwind CSS est un framework CSS open source. La fonctionnalité principale de 
     \caption{Logo Axios}
 \end{figure}
 
-Lors de la création d’une application Web, il est fréquent de vouloir utiliser et afficher les données provenant d’une API. Il existe plusieurs manières de le faire, à savoir :
-   
-- API Axios : Il s’agit d’un client HTTP basé sur les promesses pour le navigateur et Node.js. Il facilite l'envoi de requêtes HTTP asynchrones aux points de terminaison REST et la réalisation de plusieurs opérations. Il peut être utilisé en JavaScript simple ou avec une bibliothèque telle que React.
-
-- API Fetch : Elle fournit une interface JavaScript pour l'accès et la manipulation des parties du pipeline HTTP, comme les requêtes et les réponses. Cela fournit aussi une méthode globale qui procure un moyen facile et logique de récupérer des ressources à travers le réseau de manière asynchrone.
-
-Nous avons choisi de travailler avec Axios puisqu’il fournit une API facile à utiliser dans un package compact pour la plupart des besoins de communication http 
-
+Axios est un client HTTP basé sur les promesses compatible avec node.js et les navigateurs. Il est isomorphique (c’est à dire qu’il peut opérer dans le navigateur et dans node.js avec le même code). Côté serveur, il utilise le module natif http de node.js, et côté client (navigateur) il utilise les XMLHttpRequests. \cite{axios}
 \section{Environnements et outils de développement utilisés}
 
 \subsection{Visual Studio Code }
@@ -131,7 +121,7 @@ Nous avons choisi de travailler avec Axios puisqu’il fournit une API facile à
     \caption{Logo Visual Studio Code }
 \end{figure}
 
-Visual Studio Code est éditeur de texte open source, gratuit et multiplateforme (Windows, Mac et Linux), développé
+Visual Studio Code est un éditeur de texte open source, gratuit et multiplateforme (Windows, Mac et Linux), développé
 par Microsoft. Principalement conçu pour le développement
 d’application avec JavaScript, Type script et Node.js, l’éditeur peut s’adapter à d’autres types de langages grâce à un
 Système d’extension bien fourni. \cite{VS}
@@ -141,9 +131,9 @@ Système d’extension bien fourni. \cite{VS}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{Logos/4dClient.PNG}
-    \caption{Logo  4D client}
+    \caption{Logo  4D Client}
 \end{figure}
-4D vous permet de construire des applications clientserveur personnalisées qui sont homogènes, multiplateformes
+4D  permet de construire des applications client-serveur personnalisées qui sont homogènes, multiplateformes
 et avec une option de mise à jour automatique. Les applications client et serveur sont configurées dans la page
 Client/Serveur de la boîte de dialogue Construire une application.
 
@@ -171,7 +161,7 @@ multi-utilisateur.
     \caption{Logo  Postman}
 \end{figure}
 
-Postman est la solution la plus populaire pour tester / appeler une API Web. Postman offre un environnement graphique complet qui permet de gérer toutes les interactions avec les API Web. Les requêtes construites et exécutées sont stockées dans une histoire facilitant ainsi leur ré-exécution. \cite{Postman}
+Postman est la solution la plus populaire pour tester / appeler une API Web. Postman offre un environnement graphique complet qui permet de gérer toutes les interactions avec les API Web. Les requêtes construites et exécutées sont stockées dans une historique facilitant ainsi leur ré-exécution. \cite{Postman}
 
 \subsection{GitLab}
 
@@ -214,42 +204,42 @@ comme Rational Rose1 ou Together2
 ressources système, supportant UML 2, ce logiciel constitue une excellente option pour
 une familiarisation à la modélisation. Cependant, seule une version Windows est disponible. \cite{StarUml}
 
-\section{base de données }
+\section{Base de données }
 
-La plateforme 4D intègre un système de gestion de base de données (SGBD)qui permet le stockage, la gestion et la manipulation des données. nous  utilisons le composant structure pour créer graphiquement les tables de notre base de données, En suivant  un ensemble de règles de 4D .
+La plateforme 4D intègre un système de gestion de base de données (SGBD) qui permet le stockage, la gestion et la manipulation des données. Nous utilisons le composant structure pour créer graphiquement les tables de notre base de données, en suivant un ensemble de règles propres à 4D.
 
-Nous  séparons la catégorie des cours dans une table distincte. Cela permet de gérer les gèrer  de manière centralisée et de faciliter leur mise à jour. Si la catégorie des cours change, il suffit de modifier la table des catégories et les modifications seront automatiquement répercutées sur tous les cours qui y sont associés.
+Nous séparons la catégorie des cours dans une table distincte. Cela permet de gérer les catégories de manière centralisée et de faciliter leur mise à jour. Si la catégorie des cours change, il suffit de modifier la table des catégories et les modifications seront automatiquement répercutées sur tous les cours qui y sont associés.
 
-De même, nous séparons  la table des rôles pour prendre en compte l'ajout de nouveaux rôles. Cela permet de gérer les rôles de manière indépendante et de faciliter leur gestion. Si un nouveau rôle est ajouté, il suffit de créer une nouvelle entrée dans la table des rôles et de lui associer les permissions nécessaires.
+De même, nous séparons la table des rôles pour prendre en compte l’ajout de nouveaux rôles. Cela permet de gérer les rôles de manière indépendante et de faciliter leur gestion. Si un nouveau rôle est ajouté, il suffit de créer une nouvelle entrée dans la table des rôles et de lui associer les permissions nécessaires.
 
-Enfin,  également la table " administrateur" pour faciliter la gestion des privilèges et des rôles. Cela permet de gérer les administrateurs de manière indépendante et de leur attribuer des permissions spécifiques. De plus,on séprons cette table nous garantissons que ses données ne peut pas etre accessible par un autre utilisateur. la figure suivante représente notre base de données :
+Enfin, nous séparons également la table "administrateur" pour faciliter la gestion des privilèges et des rôles. Cela permet de gérer les administrateurs de manière indépendante et de leur attribuer des permissions spécifiques. De plus, en séparant cette table, nous garantissons que ses données ne peuvent pas être accessibles par un autre utilisateur.
 
+La figure suivante représente notre base de données :
 
 \begin{figure}[H]
     \centering
 \includegraphics[width=19cm]{Figures/database.PNG}
 
-    \caption{création de la base de données en 4D}
-    \label{fig:4dmonde1}
+    \caption{Création de la base de données en 4D}
 \end{figure}
 
-La gestion des relations entre les tables est un peu différente dans le SGBD 4D ,elle ne se fait pas seulement a travers les clès mais aussi via la création des liens avec des règles sont spécifique pour 4D. D'ailleurs, on peut seulement utiliser les liens N vers 1.
+La gestion des relations entre les tables est un peu différente dans le SGBD 4D. Elle ne se fait pas seulement à travers les clés mais aussi via la création de liens avec des règles spécifiques à 4D. D’ailleurs, on peut seulement utiliser les liens N vers 1.
 
-Lorsqu'on  trace un lien entre deux tables, la table contenant le champ clé primaire de la relation est appelée la Table 1 et la table contenant le champ clé d’appel de la relation est appelée la Table N. Ces tables sont appelées table 1 et table N car un enregistrement de la table 1 est relié à N enregistrements de la table N et inversement. Ce type de relation est appelé une relation de N vers 1.
+Lorsqu’on trace un lien entre deux tables, la table contenant le champ clé primaire de la relation est appelée la Table 1, et la table contenant le champ clé d’appel de la relation est appelée la Table N. Ces tables sont appelées Table 1 et Table N car un enregistrement de la Table 1 est relié à N enregistrements de la Table N et inversement. Ce type de relation est appelé une relation de N vers 1.
 
-Les liens 1 vers 1 ne sont pas utilisés car les tables qui sont liées par ce type de lien peuvent être combinées dans une table unique.
+Les liens 1 vers 1 ne sont pas utilisés car les tables liées par ce type de lien peuvent être combinées dans une table unique.
 
-Pour manipuler les relations plusieurs-à-plusieurs nous utilisons ce qu'on appelle "Atribut Alias".En effet, Ils apportent plus de lisibilité et de simplicité dans le code et dans les recherches en permettant de s'appuyer sur des concepts métier plutôt que sur des détails d'implémentation.
+Pour manipuler les relations plusieurs-à-plusieurs, nous utilisons ce qu’on appelle "Attribut Alias". En effet, ils apportent plus de lisibilité et de simplicité dans le code et dans les recherches en permettant de s’appuyer sur des concepts métier plutôt que sur des détails d’implémentation.
 
-Considérant le modèle suivant :
+Considérant le modèle suivant :
 
 \begin{figure}[H]
     \centering
 \includegraphics[width=19cm]{Figures/exemple.PNG}
-    \caption{exemple de relation N vers N}
+    \caption{Exemple de relation N vers N}
 \end{figure}
 
-Dans la dataclasse Course, l'attribut alias "client" renvoie tous les user d'une formation.
+Dans la dataclasse Course, l’attribut alias "client" renvoie tous les utilisateurs d’une formation
 
 \begin{figure}[H]
     \centering
@@ -289,7 +279,7 @@ L'objet Session courant est alors accessible via la commande Session dans le cod
 
 L'architecture de sécurité ORDA est basée sur les concepts de privilèges, d'actions d'autorisation (lecture, création, etc.) et de ressources.
 
-Lorsque les utilisateurs sont connectés, leur session est automatiquement chargée avec les privilèges associés. Les privilèges sont attribués à la session à l'aide de la session.setPrivileges()fonction.
+Lorsque les utilisateurs sont connectés, leur session est automatiquement chargée avec les privilèges associés. Les privilèges sont attribués à la session à l’aide de la fonction \texttt{session.setPrivileges()}.
 
 En roles.json : Chaque demande d'utilisateur envoyée au cours de la session est évaluée par rapport aux privilèges définis dans le fichier du projet .
 
@@ -302,9 +292,8 @@ Si un utilisateur tente d'exécuter une action et ne dispose pas des droits d'ac
     \caption{Schéma des privilèges en 4D}
 \end{figure}
 
-\section{Travail Réalisé}
+\section{Captures d'écran}
 
-La réalisation de l’application constitue une étape cruciale du processus de développement, où l’ensemble des concepts et solutions préalablement étudiés sont intégrés et mis en œuvre. Ce chapitre se focalise sur les deux principaux espaces implémentés : l’Espace Apprenant et l’Espace Administrateur.
 
 \subsection{Authentification}
 
@@ -342,14 +331,14 @@ Cette page fournit des informations détaillées sur une formation spécifique, 
     \caption{Détails d'une formation}
 \end{figure}
 
-\subsubsection{Regarder formation}
+\subsubsection{Suivre une formation}
 
 Cette page permet aux apprenants de suivre une formation qu'ils ont choisie. Elle comprend les chapitres, les vidéos et les documents à télécharger.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=19cm]{Figures/video.png}
-    \caption{regarder formation}
+    \caption{Regarder Formation}
 \end{figure}
 
 \subsubsection{Liste des formateurs}
@@ -359,17 +348,17 @@ Cette page offre une vue d'ensemble du profil de l'apprenant, incluant ses infor
 \begin{figure}[H]
     \centering
     \includegraphics[width=19cm]{Figures/authors.png}
-    \caption{la liste des formateurs}
+    \caption{la liste Des Formateurs}
 \end{figure}
 
 \subsubsection{Historique}
 
-Cette page affiche l'historique des formations suivies par l'apprenant, y compris les formations terminées et en cours.
+Cette page affiche l’historique des formations suivies par l’apprenant, incluant sa progression.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=19cm]{Figures/historique.png}
-    \caption{ Page d'historique}
+    \caption{ Page D'Historique}
 \end{figure}
 
 \subsubsection{Favoris}
@@ -379,7 +368,7 @@ Cette page permet aux apprenants de sauvegarder leurs formations préférées po
 \begin{figure}[H]
     \centering
     \includegraphics[width=19cm]{Figures/favoris.png}
-    \caption{ Page de favoris}
+    \caption{ Page de Favoris}
 \end{figure}
 
 \subsubsection{Page de profil}
@@ -388,7 +377,7 @@ Cette page offre une vue d'ensemble du profil de l'apprenant, incluant ses infor
 \begin{figure}[H]
     \centering
     \includegraphics[width=19cm]{Figures/profil.png}
-    \caption{ Page de profil}
+    \caption{ Page de Profil}
 \end{figure}
 
 
@@ -423,7 +412,7 @@ Cette page permet aux administrateurs de visualiser toutes les formations dispon
 \begin{figure}[H]
     \centering
     \includegraphics[width=19cm]{Figures/addCourse.png}
-    \caption{ Page de Liste des formations + ajout formation}
+    \caption{ Page de Liste des formations et ajout formation}
 \end{figure}
 
 \subsubsection{Liste des formateurs et ajout formateur }
@@ -445,68 +434,75 @@ Cette page affiche la liste des apprenants inscrits sur la plateforme et permet 
     \includegraphics[width=19cm]{Figures/addStudent.png}
     \caption{ Page de liste des apprenants et ajout apprenant}
 \end{figure}
-
 \section{Validation des exigences}
 
 \subsection{Exigences Fonctionnelles}
-La validation des exigences est une étape cruciale pour s'assurer que toutes les fonctionnalités et les besoins du système sont correctement mis en œuvre. Voici les exigences fonctionnelles q'on a pu intégré dans notre plateforme:
 
-\subsection{Authentification}
+La validation des exigences est une étape cruciale pour s’assurer que toutes les fonctionnalités et les besoins du système sont correctement mis en œuvre. Voici les exigences fonctionnelles que nous avons pu intégrer dans notre plateforme :
+
+\subsubsection{Authentification}
 
 Pour valider l'exigence d'authentification, nous avons mis en place un système de connexion où les utilisateurs doivent saisir leur identifiant (email ou nom d'utilisateur) et leur mot de passe. Nous avons testé différentes combinaisons d'identifiants et de mots de passe pour vérifier que seuls les utilisateurs enregistrés peuvent accéder aux services.
 
+\subsubsection{Apprenant}
 
-\subsection{Gestion des Abonnements}
+\paragraph{Gestion des Abonnements}
 
 L'exigence de gestion des abonnements n'a pas encore été totalement intégrée, notamment en ce qui concerne le paiement. Actuellement, les utilisateurs peuvent s'inscrire aux formations sans payer. La validation de cette exigence a été faite en vérifiant que les utilisateurs peuvent s'inscrire à une formation après s'être authentifiés.
 
-
-\subsection{Gestion des Formations pour les Apprenants}
+\paragraph{Gestion des Formations pour les Apprenants}
 
 Pour chaque sous-fonctionnalité de la gestion des formations, nous avons effectué des tests utilisateurs :
 \begin{itemize}
-    \item[$\bullet$] Inscription à une formation : Les utilisateurs ont pu s'inscrire à une formation après avoir authentifié. 
-    \item[$\bullet$] Consultation d'une formation : Les utilisateurs inscrits ont pu accéder aux détails des formations.
-    \item[$\bullet$] Évaluation d'une formation : Les utilisateurs ont pu laisser des évaluations après avoir suivi une formation.
-    \item[$\bullet$] Recherche de formations : Les utilisateurs ont pu rechercher et trouver des formations spécifiques sur la plateforme.
-    \item[$\bullet$] Consultation du profil d'un formateur : Les utilisateurs ont pu accéder aux profils des formateurs et consulter leurs informations.
+\item Inscription à une formation : Les utilisateurs ont pu s'inscrire à une formation après s'être authentifiés.
+\item Consultation d'une formation : Les utilisateurs inscrits ont pu accéder aux détails des formations.
+\item Évaluation d'une formation : Les utilisateurs ont pu laisser des évaluations après avoir suivi une formation.
+\item Recherche de formations : Les utilisateurs ont pu rechercher et trouver des formations spécifiques sur la plateforme.
+\item Consultation du profil d'un formateur : Les utilisateurs ont pu accéder aux profils des formateurs et consulter leurs informations.
 \end{itemize}
 
-
-\subsection{Gestion des Profils Apprenants}
+\paragraph{Gestion de Profil}
 
 Les utilisateurs ont pu modifier leurs informations personnelles, et les modifications ont été enregistrées et affichées correctement.
 
-\subsection{Gestion des Formations pour les Administrateurs}
+\subsubsection{Administrateur}
+
+\paragraph{Gestion des Formations pour les Administrateurs}
 
 Les administrateurs ont pu ajouter et supprimer des formations. Chaque action a été testée pour s'assurer que les modifications sont correctement reflétées sur la plateforme. Cependant, la fonctionnalité de modification des formations n'a pas encore été implémentée. La validation des exigences a donc été partiellement réalisée pour cette section, en attendant l'ajout de la fonctionnalité de modification.
 
-\subsection{Gestion des Apprenants pour les Administrateurs}
+\paragraph{Gestion des Apprenants pour les Administrateurs}
 
 Les administrateurs ont la capacité de gérer les apprenants en ajoutant, modifiant et supprimant leurs profils.
 
-\subsection{Gestion des Formateurs pour les Administrateurs}
+\paragraph{Gestion des Formateurs pour les Administrateurs}
 
-Les administrateurs ont la capacité de gérer les Formateurs en ajoutant, modifiant et supprimant leurs profils.
+Les administrateurs ont la capacité de gérer les formateurs en ajoutant, modifiant et supprimant leurs profils.
 
-
-\subsection{Gestion des Statistiques}
+\paragraph{Consultation des Statistiques}
 
 Les administrateurs ont pu accéder aux statistiques de la plateforme, y compris le nombre d'abonnés, les formations les plus populaires et les évaluations des formations.
 
-
-\section{Exigences Non Fonctionnelles}
+\subsection{Exigences Non Fonctionnelles}
 
 Les exigences non fonctionnelles définies pour la plateforme ont été évaluées afin de garantir leur intégrité et leur conformité. Voici les résultats de la validation pour chaque exigence :
 
 \begin{itemize}
-    \item \textbf{Convivialité :} Pour assurer une facilité d'utilisation optimale, des tests d'utilisabilité ont été menés avec un panel d'utilisateurs représentatifs. Les interfaces utilisateur ont été évaluées selon des critères de simplicité, d'ergonomie et d'adaptabilité. Les résultats ont confirmé que les interfaces sont conviviales et répondent aux attentes des utilisateurs.
-    \item \textbf{Scalabilité :} L'architecture mise en œuvre a été conçue avec une forte abstraction, permettant une intégration aisée de nouvelles fonctionnalités et une évolution technologique sans perturbation majeure de l'infrastructure existante.
-    \item \textbf{Performance :} Nous avons optimisé les requêtes envoyées au serveur afin de minimiser le temps de réponse du système. 
-    \item \textbf{Disponibilité :} Pour garantir une disponibilité maximale, nous envisageons d'utiliser plusieurs serveurs simultanément. Cette approche permettra de répartir la charge et d'assurer une continuité de service robuste même en cas de défaillance d'un serveur.
-    \item \textbf{Sécurité :} Les requêtes ont été sécurisées en utilisant le protocole TLS (Transport Layer Security), assurant ainsi le chiffrement des données échangées entre les utilisateurs et la plateforme. Cette mesure renforce la protection des données personnelles des utilisateurs et garantit l'intégrité du contenu de la plateforme, conforme aux normes et régulations en vigueur.
+\item \textbf{Convivialité :} Pour assurer une facilité d'utilisation optimale, des tests d'utilisabilité ont été menés avec un panel d'utilisateurs représentatifs. Les interfaces utilisateur ont été évaluées selon des critères de simplicité, d'ergonomie et d'adaptabilité. Les résultats ont confirmé que les interfaces sont conviviales et répondent aux attentes des utilisateurs.
+\item \textbf{Maintenabilité :} L'architecture mise en œuvre a été conçue avec une forte abstraction, permettant une intégration aisée de nouvelles fonctionnalités et une évolution technologique sans perturbation majeure de l'infrastructure existante.
+\item \textbf{Performance :} Nous avons optimisé les requêtes envoyées au serveur afin de minimiser le temps de réponse du système en les regroupant en une seule requête.
+\item \textbf{Disponibilité :} Pour garantir une disponibilité maximale, nous envisageons d'utiliser plusieurs serveurs simultanément. Cette approche permettra de répartir la charge et d'assurer une continuité de service robuste même en cas de défaillance d'un serveur.
+\item \textbf{Sécurité :} Les requêtes ont été sécurisées en utilisant le protocole TLS (Transport Layer Security), assurant ainsi le chiffrement des données échangées entre les utilisateurs et la plateforme. Cette mesure renforce la protection des données personnelles des utilisateurs et garantit l'intégrité du contenu de la plateforme, conforme aux normes et régulations en vigueur.
 \end{itemize}
-    \newpage
 
+
+\newpage
 \section*{Conclusion}
-Après avoir cité les différents outils et les Framework avec lesquels nous avons implémenté notre projet, ce dernier chapitre a mis en lumière la phase de réalisation de notre application. Nous avons présenté les interfaces graphiques que nous avons développées pour illustrer le fonctionnement de certaines activités clés de notre système. Ces interfaces ont été conçues avec une attention particulière pour offrir une expérience utilisateur conviviale et intuitive.
+Ce chapitre a été consacré à l’implémentation et à la validation de notre solution. Après une
+présentation des outils utilisés et des captures d’écran réalisés, nous avons passé en revue l'étape de validation.
+
+
+
+
+
+
